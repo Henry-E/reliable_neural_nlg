@@ -1,0 +1,56 @@
+pricerange_less_than_£20 5195
+[('less than £ 20', 1984), ('is a cheap', 294), ('price range', 172), ('less than 20 pounds', 165), ('under £ 20', 162), ('less than 20', 145), ('cheap', 74), ('priced', 72), ('low - priced', 71), ('is a low priced', 69)]
+food_indian 4293
+[('indian', 4289), ('indiana food', 4)]
+name 42051
+[('__name__', 42051)]
+familyfriendly_no 7286
+[('not family - friendly', 1387), ('not family friendly', 647), ('not kid friendly', 539), ('not child friendly', 496), ('not children friendly', 364), ('not kids friendly', 165), ('non family - friendly', 156), ('is not a', 118), ('it is not a', 108), ('not child - friendly', 86)]
+eattype_coffee_shop 10035
+[('coffee shop', 9849), ('coffee', 70), ('coffee ship', 22), ('coffee shops', 9), ('coffee house', 7), ('coffee chop', 7), ('serves coffee', 6), ('coffee - shop', 5), ('coffee show', 3), ('coffee shot', 3)]
+pricerange_moderate 5263
+[('moderate', 2640), ('is a moderately priced', 467), ('moderately priced', 299), ('is moderately priced', 137), ('price range', 111), ('moderately - priced', 83), ('it is moderately priced', 81), ('a moderately priced', 58), ('serves moderately priced', 57), ('mid - priced', 43)]
+familyfriendly_yes 16109
+[('family - friendly', 1106), ('is a family friendly', 1073), ('family friendly', 1067), ('is family friendly', 612), ('is a kid friendly', 458), ('kid friendly', 442), ('is a child friendly', 423), ('is kid friendly', 399), ('is child friendly', 356), ('it is family friendly', 352)]
+food_japanese 5207
+[('japanese', 4635), ('sushi', 314), ('sushi restaurant', 82), ('sushi bar', 42), ('is a sushi restaurant', 24), ('sushi place', 7), ('seafood', 5), ('drinks', 4), ('sushi food', 4), ('sushi dishes', 3)]
+near 20320
+[('__near__', 20320)]
+food_chinese 2893
+[('chinese', 2883), ('chines food', 6), ('chines restaurant named', 1), ('chinese family', 1), ('chines restaurant', 1), ('on the chinese', 1)]
+area_riverside 14121
+[('riverside', 12786), ('river', 1082), ('river side', 86), ('view of the river', 19), ('riverfront', 18), ('city river', 13), ('river to the', 12), ('margin of the river', 10), ('banks of the river', 10), ('river cam in cambridge', 7)]
+pricerange_£20-25 3423
+[('£ 20 - 25', 1529), ('£ 20- £ 25', 189), ('20 - 25', 129), ('price range', 122), ('20 - 25 pounds', 60), ('£ 20 to £', 53), ('£ 20 - £', 50), ('average price range', 35), ('mid - priced', 34), ('l20 - 25', 34)]
+eattype_pub 6233
+[('pub', 6185), ('public house', 19), ('is a public restaurant', 4), ('is a public', 2), ('is pub', 2), ('public like', 2), ('food is public', 1), ('to eat pub', 1), ('very good pub', 1), ('the pub is', 1)]
+food_french 4768
+[('french', 4415), ('cheese', 100), ('cheeses', 34), ('drink', 28), ('drinks', 27), ('snacks', 13), ('beverages', 12), ('cheese restaurant', 9), ('cheese shop', 9), ('appetizers', 7)]
+customerrating_5_out_of_5 4267
+[('5 out of 5', 2863), ('highly rated', 79), ('high customer rating', 70), ('is a highly rated', 67), ('customer rating of', 53), ('customer rating', 53), ('5 star', 48), ('is a five star', 45), ('five star rating', 39), ('is a 5 star', 39)]
+customerrating_low 4438
+[('low', 3643), ('one star rating', 40), ('one - star', 36), ('is a one star', 36), ('one star', 30), ('customer rating of', 21), ('rated', 21), ('1 star', 18), ('one star rated', 18), ('1 star rating', 17)]
+area_city_centre 7517
+[('city centre', 6395), ('city center', 660), ('center of the city', 193), ('centre of the city', 169), ('centre city', 22), ('center of city', 14), ('town centre', 12), ('middle of the city', 8), ('center', 8), ('center of town', 7)]
+customerrating_1_out_of_5 3617
+[('1 out of 5', 2673), ('low customer rating', 123), ('customer rating of', 57), ('customer rating', 40), ('low rated', 36), ('1 star', 27), ('poor customer rating', 22), ('low customer ratings', 21), ('rated', 19), ('one star rating', 17)]
+customerrating_high 3818
+[('high', 2603), ('is a highly rated', 216), ('highly rated', 152), ('is highly rated', 49), ('highly - rated', 47), ('it is highly rated', 33), ('a highly rated', 30), ('is a moderately priced', 22), ('5 star', 18), ('the highly rated', 17)]
+customerrating_average 4797
+[('average', 4049), ('is a three star', 48), ('three star rating', 33), ('3 - star', 31), ('is a 3 star', 29), ('3 star rating', 26), ('customer rating', 26), ('three star', 24), ('three - star', 20), ('rated', 19)]
+pricerange_cheap 4012
+[('cheap', 3044), ('price range', 74), ('low - priced', 62), ('is an inexpensive', 45), ('is a low priced', 45), ('with low prices', 25), ('low price range', 25), ('at low prices', 24), ('low priced', 22), ('low - cost', 22)]
+pricerange_high 4747
+[('high', 3548), ('is an expensive', 262), ('expensive', 50), ('serves expensive', 40), ('is expensive', 35), ('is a highly priced', 28), ('in the higher', 28), ('highly priced', 27), ('higher price range', 25), ('an expensive', 21)]
+food_english 3365
+[('english', 3132), ('british food', 79), ('british', 29), ('british restaurant', 26), ('british cuisine', 23), ('traditional british food', 8), ('traditional british cuisine', 7), ('british cuisine restaurant', 7), ('authentic british', 4), ('british meals', 3)]
+eattype_restaurant 3068
+[('restaurant', 3058), ('based restaurant', 1), ('at our restaurant', 1), ('restaurantr serves', 1), ('restaurants serves', 1), ('restaurants is', 1), ('restaurant is children friendly', 1), ('restaurants welcomes families', 1), ('restaurants serves up hearty', 1), ('one of the restaurants', 1)]
+pricerange_more_than_£30 4272
+[('more than £ 30', 1616), ('is an expensive', 163), ('over £ 30', 155), ('£ 30', 141), ('price range', 128), ('more than 30 pounds', 127), ('more than 30', 123), ('expensive', 63), ('high price range', 63), ('more than 30 euros', 54)]
+customerrating_3_out_of_5 3402
+[('3 out of 5', 2593), ('customer rating', 98), ('customer rating of', 67), ('three star', 23), ('3 star rating', 21), ('good customer rating', 19), ('three star rating', 19), ('is a 3 star', 18), ('average customer rating', 18), ('3 star', 16)]
+food_italian 4968
+[('italian', 4773), ('pasta', 60), ('spaghetti', 19), ('meals', 11), ('drink', 10), ('pastas', 4), ('beverages', 4), ('noodle place', 4), ('pasta dishes', 4), ('noodles', 3)]
+food_fast_food 4838
+[('fast food', 4654), ('fast - food', 154), ('fast foods', 14), ('american style restaurant', 3), ('fast', 3), ('type fast food', 2), ('american - style', 2), ('style fast food', 2), ('fast - foods', 1), ('quality fast - food', 1)]

@@ -1,0 +1,40 @@
+price_range_more than £30
+ 3429
+ [('more than £30', 1507), ('expensive', 571), ('more than 30', 331), ('high price', 204), ('high priced', 176), ('over £30', 150), ('more than  £30', 100), ('high-priced', 76), ('high prices', 70), ('over 30', 48)]
+rating_5 out of 5 4375
+ [('5 out of 5', 2712), ('highly rated', 266), ('5 star', 207), ('five star', 163), ('high customer rating', 110), ('5 out of 5 stars', 56), ('5-star', 52), ('high quality', 51), ('5 stars', 49), ('five-star', 48)]
+price_range_cheap
+ 4326
+ [('cheap', 3198), ('low price', 248), ('inexpensive', 184), ('low priced', 164), ('low-priced', 134), ('low prices', 128), ('affordable', 101), ('cheaply', 45), ('prices and low', 17), ('price range and a low', 15)]
+area_riverside 13794
+ [('riverside', 12819), ('near the river', 383), ('by the river', 269), ('on the river', 212), ('along the river', 39), ('close to the river', 35), ('off the river', 16), ('beside the river', 16), ('at the river', 5)]
+eat_type_coffee shop 10138
+ [('coffee shop', 9806), ('coffee', 235), ('café', 86), ('coffee  shop', 6), ('coffee-shop', 5)]
+family_friendly_yes 15703
+ [('family friendly', 5053), ('kid friendly', 2276), ('child friendly', 1959), ('family-friendly', 1722), ('children friendly', 1657), ('kids friendly', 894), ('kid-friendly', 412), ('child-friendly', 390), ('for families', 240), ('children-friendly', 229)]
+price_range_less than £20
+ 4430
+ [('less than £20', 1833), ('cheap', 728), ('less than 20', 399), ('low price', 281), ('low priced', 242), ('inexpensive', 189), ('under £20', 161), ('low-priced', 155), ('low prices', 123), ('moderately priced', 93)]
+rating_low 4132
+ [('low customer rating', 1839), ('low rated', 283), ('rating is low', 271), ('one star', 265), ('low rating', 245), ('low customer ratings', 227), ('1 star', 101), ('low ratings', 101), ('rated low', 64), ('ratings are low', 64)]
+price_range_£20-25 3321
+ [('£20-25', 1511), (' 20-25', 266), ('£20-£25', 188), ('average price', 147), ('mid-priced', 132), ('moderately priced', 128), ('average priced', 110), ('mid price', 98), ('mid priced', 89), ('£20 to £25', 69)]
+price_range_moderate 5058
+ [('moderate price', 1712), ('moderately priced', 1447), ('moderate prices', 312), ('moderate priced', 211), ('average price', 183), ('price range is moderate', 117), ('moderately-priced', 115), ('average prices', 95), ('average priced', 73), ('moderate pricing', 65)]
+family_friendly_no 6741
+ [('not family-friendly', 1400), ('not family friendly', 742), ('not kid friendly', 631), ('not child friendly', 574), ('not children friendly', 432), ('adult', 283), ('not kids friendly', 204), ('non family-friendly', 159), ('adults', 139), ('not a family-friendly', 136)]
+area_city centre 8998
+ [('city centre', 7532), ('city center', 915), ('centre of the city', 227), ('center of the city', 199), ('centre', 45), ('center', 35), ('center of city', 15), ('town centre', 14), ('center of town', 7), ('centre of city', 4)]
+rating_3 out of 5
+ 3398
+ [('3 out of 5', 2413), ('average customer rating', 107), ('3 out of 5 stars', 97), ('3 star', 84), ('three star', 76), ('three out of five', 45), ('3 out of 5 star', 41), ('average rating', 38), ('3 stars', 38), ('good customer rating', 34)]
+price_range_high
+ 3995
+ [('high price', 1834), ('high priced', 735), ('expensive', 701), ('high-priced', 232), ('high prices', 211), ('price range is high', 134), ('prices are high', 54), ('price is high', 20), ('prices are in the high', 8), ('price range of high', 7)]
+rating_1 out of 5 3612
+ [('1 out of 5', 2496), ('low customer rating', 155), ('one star', 124), ('1 star', 94), ('1 out of 5 stars', 79), ('low rated', 72), ('one out of five', 54), ('low customer rating of 1 out of 5', 46), ('low customer ratings', 34), ('low rating', 31)]
+rating_high 3511
+ [('high customer rating', 1434), ('highly rated', 617), ('rating is high', 215), ('high customer ratings', 210), ('high rated', 151), ('high rating', 141), ('5 star', 78), ('high ratings', 74), ('five star', 73), ('highly-rated', 48)]
+rating_average 4142
+ [('average customer rating', 1816), ('average rating', 416), ('rating is average', 273), ('average rated', 208), ('average customer ratings', 198), ('three star', 134), ('average ratings', 122), ('rated average', 116), ('3 star', 105), ('rating of average', 72)]
+

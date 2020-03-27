@@ -4,16 +4,16 @@ import datetime
 
 def main():
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('-o', '--output_dir_name', help='output directory')
+    parser.add_argument(
+        '-o', '--output_dir_name', help='output directory',
+        default='/home/henrye/projects/clear_tasks/data')
     parser.add_argument('-i', '--input_file_names', nargs='*', help='')
     args = parser.parse_args()
 
-    main_dir_name = os.path.dirname(
-        os.path.dirname(os.path.abspath(args.input_file_names[0])))
     input_dir_root = os.path.dirname(args.input_file_names[0])
     datetime_stamp = datetime.datetime.now().strftime('%a%d%b_%H%M')
     output_dir_root = input_dir_root + '_' + datetime_stamp
-    output_dir_name = os.path.join(main_dir_name, 'data', output_dir_root)
+    output_dir_name = os.path.join(args.output_dir_name, output_dir_root)
     os.mkdir(output_dir_name)
 
     for input_file_name in args.input_file_names:
@@ -30,7 +30,7 @@ def main():
                     if not any(char in tok for char in ['[', ']'])
                 ])))
                 tgt.append(' '.join([
-                    tok for tok in tgt_raw.split()
+                    tok.lower() for tok in tgt_raw.split()
                     if not any(char in tok for char in ['[', ']'])
                 ]))
 
