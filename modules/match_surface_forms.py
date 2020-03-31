@@ -2,6 +2,7 @@ import argparse
 import os
 import re
 import csv
+import pprint
 
 from collections import defaultdict, Counter
 
@@ -10,13 +11,13 @@ from tqdm import tqdm
 # TODO replace with joined da+value
 REALIZATIONS = {
     'area_city_centre': [
-        '(?:city|town) cent(?:re|er)',
-        'cent(?:re|er) of (?:the )?(?:city|town)',
-        'cent(?:re|er)',
+        '(?:(?:locat\w+|plac\w+|down|right|situat\w+)? ?(?:near|near to|by|at|close to|along|on|off|beside|next to|in) ?(?: the)?)? ?(?:(?:area)(:?of the|of)? ?)?(?:city|town) cent(?:re|er)(?: area)?',
+        '(?:(?:locat\w+|plac\w+|down|right|situat\w+)? ?(?:near|near to|by|at|close to|along|on|off|beside|next to|in) ?(?: the)?)? ?cent(?:re|er) of (?:the )?(?:city|town)',
+        '(?:(?:locat\w+|plac\w+|down|right|situat\w+)? ?(?:near|near to|by|at|close to|along|on|off|beside|next to|in) ?(?: the)?)? ?cent(?:re|er)',
     ],
     'area_riverside': [
-        'river ?side',
-        '(?:near|by|at|close to|along|on|off|beside) the river',
+        'river ?side(?: area)?',
+        '(?:(?:locat\w+|plac\w+|down|right|situat\w+)? ?(?:near|near to|by|at|close to|along|on|off|beside|next to|in) ?(?: the)?)? ?river ?(?:side|bank)?(?: area)?',
         '(?:banks|margin) of the river',
         'river(?:front)?',
     ],
@@ -52,39 +53,35 @@ REALIZATIONS = {
         '(?:kids?|child(?:ren)?|famil(?:y|ies)) (?:are|is) (?:welcome|allowed|accepted)',
         '(?:welcomes?|allows?|accepts?) (?:\w+ ){0,2}(?:kids?|child(?:ren)?|famil(?:y|ies)|all age)',
     ],
-    'food_chinese': ['Chinese', 'Chines'],
-    'food_english': ['English', 'British'],
-    'food_fast_food': ['Fast food'],
-    'food_french': ['French'],
-    'food_indian': ['Indian'],
-    'food_italian': ['Italian'],
-    'food_japanese': ['Japanese'],
-    'name': ['__name__'],
-    'near': ['__near__'],
+    'food_chinese': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?Chinese(?: foods?)?', '(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?Chines(?: foods?)?'],
+    'food_english': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?English(?: foods?)?', '(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?British(?: foods?)?'],
+    'food_fast_food': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?Fast[- ]+foods?(?: takeout)?'],
+    'food_french': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?French(?: foods?)?', '(?:(?:wine).*)?cheese\w*(?:.*(?:wine\w*))?'],
+    'food_indian': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?Indian(?: foods?)?'],
+    'food_italian': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?Italian(?: foods?)?'],
+    'food_japanese': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)?  ?Japanese(?: foods?)?',
+            '(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?sushi'],
+    'name': ['(?:call\w+|nam\w+|try|check out|at|head to)? ?__name__',
+            ],
+    'near': ['(?:(?:located)? ?(?:near|close|by|close by|next)(?: to)?(?: the)? )?__near__',
+            ],
     "pricerange_cheap": [
-        "(?:inexpensive|cheap)(?:ly)?",
-        "low[- ]+price[ds]?",
+        "(?:(?:price|range).*)?(?:inexpensive|cheap)(?:ly)?(?:.*(?:price\w|range))?",
+        "low\w*[- ]+price[ds]?(?: range)?",
         "affordabl[ey]",
         "prices?(?: range)?(?: \w+){0,3} low",
     ],
     "pricerange_less_than_£20": [
-        "(?:inexpensive|cheap)(?:ly)?",
+        "(?:(?:price|range).*)?(?:inexpensive|cheap)(?:ly)?(?:.*(?:price\w|range))?",
         "affordabl[ey]",
-        "(?:less than|under) £? *20 *(?:pounds)?",
+        "(?:(?:price|range).*)?(?:less than|under) £? *20 *(?:pounds)?(?:.*(?:price\w|range))?",
         "moderately priced",
-        "low[- ]+price[ds]?",
+        "low\w*[- ]+price[ds]?(?: range)?",
         "prices?(?: range)?(?: \w+){0,3} low",
     ],
-    "pricerange_more_than_£30": [
-        "(?:more than|over|start at|higher than) *(?:£? *30|thirty pounds)",
-        "high[- ]+price[ds]?",
-        "expensive",
-        "not cheap",
-        "prices?(?: range)?(?: \w+){0,3} high",
-    ],
     "pricerange_high": [
-        "high[- ]+price[ds]?",
-        "expensive",
+            "(?:(?:price|range).*)?high\w*[- ]+(?:price[ds]?|range)(?: range)?",
+        "(?:(?:price|range).*)?expensive\w*(?: (?:price\w|range|price range))?",
         "prices?(?: range)?(?: \w+){0,3} high",
     ],
     "pricerange_moderate": [
@@ -94,40 +91,47 @@ REALIZATIONS = {
         "mid[- ]+(?:range[- ]+)price[ds]?",
         "prices?(?: range)?(?: \w+){0,3} (?:ok|average|moderate|reasonable)",
     ],
+    "pricerange_more_than_£30": [
+            "(?:(?:price|range).*)?(?:more than|over|start at|higher than) *(?:£? *30|thirty pounds)(?:.*(?:price\w|range))?",
+        "(?:(?:price|range).*)?high\w*[- ]+price[ds]?(?: range)?",
+        "(?:(?:price|range).*)?expensive\w*(?: (?:price\w|range|price range))?",
+        "not cheap",
+        "prices?(?: range)?(?: \w+){0,3} high",
+    ],
     "pricerange_£20-25": [
-        "£? *20 *(?:[-–]*|to) *£? *25(?: pounds)?",
+            "(?:(?:pric\w+|range).*)?(?:between|around)? *(?:£? *20|twenty) *(?:[-–]*|to|and) *(?:£? *25|twenty[- ]*five)(?: pounds?)?(?:.*(?:pric\w+|range))?",
         "(?:moderate|reasonable|ok|average|mid)(?:ly)?[- ]+price[ds]?(?: *range)?",
         "prices?(?: range)?(?: \w+){0,3} (?:ok|average|moderate|reasonable)",
         "affordable",
     ],
     "customerrating_1_out_of_5": [
-        "(?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?: rating)?",
-        "(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?(?:low|bad|poor)(?:(?: \w+){0,3} (?:1|one)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
+            "(?:(?:customer|rating|rated|star[^t]).*)?(?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
+        "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?(?:low|bad|poor)(?:(?: \w+){0,3} (?:1|one)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
         "(?:low|bad|poor|(?:not|doesn't|isn't)(?: \w+){0,2} (:?good|well))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)(?:(?: \w+){0,3} (?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
     ],
     "customerrating_3_out_of_5": [
-        "(?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?: rating)?",
-        "(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?average(?:(?: \w+){0,3} (?:3|three)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
+            "(?:(?:customer|rating|rated|star[^t]).*)?(?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
+        "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?average(?:(?: \w+){0,3} (?:3|three)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
         "(?:average|(?<!very )(?:good|well))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)(?:(?: \w+){0,3} (?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
     ],
     "customerrating_5_out_of_5": [
-        "(?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?: rating)?",
-        "(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?high(?:(?: \w+){0,3} (?:5|five)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
+            "(?:(?:customer|rating|rated|star[^t]).*)?(?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
+        "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?high(?:(?: \w+){0,3} (?:5|five)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
         "(?:high|excellent|very good|great)(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)(?:(?: \w+){0,3} (?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
     ],
     "customerrating_high": [
-        "(?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?: rating)?",
-        "(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?high",
+            "(?:(?:customer|rating|rated|star[^t]).*)?(?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
+            "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?high",
         "(?:high|excellent|very good|great|well)(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)",
     ],
     "customerrating_average": [
-        "(?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?: rating)?",
-        "(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?average",
+            "(?:(?:customer|rating|rated|star[^t]).*)?(?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
+        "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?average",
         "(?:average|(?<!very )(?:good|well))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)",
     ],
     "customerrating_low": [
-        "(?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?: rating)?",
-        "(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?(?:low|bad|poor)",
+            "(?:(?:customer|rating|rated|star[^t]).*)?(?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
+        "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?(?:low|bad|poor)",
         "(?:low|bad|poor|(?:not|doesn't|isn't)(?: \w+){0,2} (?:well|good))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)",
     ],
 }
@@ -235,6 +239,16 @@ def reclassify_mr(ref, gold_mr):
     # for match in filt_matches:
     for match in matches:
         surface_forms[match.slot] = ref[match._start:match._end]
+    # if 'area_riverside' in surface_forms:
+    #     if surface_forms['area_riverside'].strip() == 'river':
+    #         print(ref)
+    missing_keys = gold_mr - surface_forms.keys()
+    # missing_keys = missing_keys - {'name', 'near'}
+    if missing_keys:
+        # print(missing_keys)
+        # print(ref)
+        for key in missing_keys:
+            surface_forms[key] = 'missing'
     # print('missing from ref:', gold_mr - surface_forms.keys())
     # # print(sorted(gold_mr))
     # # print('added to ref', out_dict.keys() - mr_dict.keys())
@@ -293,9 +307,26 @@ def main():
         surface_forms = reclassify_mr(line, dialogue_acts)
         for key, value in surface_forms.items():
             form_count[key].update([value.strip()])
-    [print(key, sum(value.values()), '\n', value.most_common(10)) for key,
-            value in form_count.items() if len(value.most_common()) > 0]
+
+    for key, value in sorted(form_count.items()):
+        print(key, f'matches {sum(value.values())}')
+        # print(f'unique forms {len(value)}')
+        # if 'food' not in key:
+        #     continue
+        for k, v in value.most_common(20):
+            print('  ', k, v)
+
+#     [
+#     (print(key, sum(value.values())), print('\t', k, v) for k, v in value.most_common(20))
+#      for key, value in sorted(form_count.items())
+     # ]
+     # if len(value.most_common()) > 0 and 'area' in key
+    # print(
+    #     sum(form_count['pricerange_£20-25'][key]
+    #         for key, _ in form_count['pricerange_£20-25'].items()
+    #         if '£ 20 - 25' in key))
     import ipdb; ipdb.set_trace()
+    # "(?:(?:price|range).*)?£? *20 *(?:[-–]*|to) *£? *25(?: pounds)?(?:.*(?:price\w|range))?",
 
 
 
