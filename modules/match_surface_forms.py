@@ -21,18 +21,18 @@ REALIZATIONS = {
         '(?:banks|margin) of the river',
         'river(?:front)?',
     ],
-    'eattype_coffee_shop': [
+    'eat_type_coffee_shop': [
         'coffee[- ]+shop',
         'caf[eé]',
         'coffee',
     ],
-    'eattype_pub': [
-        'pub',
+    'eat_type_pub': [
+        'pub(?:lic house)?',
     ],
-    'eattype_restaurant': [
+    'eat_type_restaurant': [
         'restaurant',
     ],
-    'familyfriendly_no': [
+    'family_friendly_no': [
         '(?:isn\'t|not|non|no)[ -]+(?:\w+ ){0,2}(?:child|children|family|kids|kid)[ -]+(?:friendly|orien(?:ta)?ted)',
         '(?:child|children|family|kids|kid)[ -]+unfriendly',
         'adults?[ -]+only',
@@ -44,7 +44,7 @@ REALIZATIONS = {
         '(?:does not|doesn\'t) (?:welcome|allow|accept) (?:\w+ ){0,2}(?:kids?|child(?:ren)?|famil(?:y|ies)|all age)',
         'adult (?:establishment|venue|place|establish)',
     ],
-    'familyfriendly_yes': [
+    'family_friendly_yes': [
         'for (?:kids|children|family|families)',
         'family place',
         'place to bring the(?: whole)? family',
@@ -61,17 +61,21 @@ REALIZATIONS = {
     'food_italian': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?Italian(?: foods?)?'],
     'food_japanese': ['(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)?  ?Japanese(?: foods?)?',
             '(?:offe\w+|sel\w+|provid\w+|serv\w+|suppl\w+)? ?sushi'],
-    'name': ['(?:call\w+|nam\w+|try|check out|at|head to)? ?__name__',
+    'name_x-name': ['(?:call\w+|nam\w+|try|check out|at|head to)? ?X-name',
             ],
-    'near': ['(?:(?:located)? ?(?:near|close|by|close by|next)(?: to)?(?: the)? )?__near__',
+    'name': ['(?:call\w+|nam\w+|try|check out|at|head to)? ?X-name',
             ],
-    "pricerange_cheap": [
+    'near_x-near': ['(?:(?:located)? ?(?:near|close|by|close by|next) ?(?:to)? ?(?:the)? ?)?X-near',
+            ],
+    'near': ['(?:(?:located)? ?(?:near|close|by|close by|next)(?: to)?(?: the)?)?X-near',
+            ],
+    "price_range_cheap": [
         "(?:(?:price|range).*)?(?:inexpensive|cheap)(?:ly)?(?:.*(?:price\w|range))?",
         "low\w*[- ]+price[ds]?(?: range)?",
         "affordabl[ey]",
         "prices?(?: range)?(?: \w+){0,3} low",
     ],
-    "pricerange_less_than_£20": [
+    "price_range_less_than_£20": [
         "(?:(?:price|range).*)?(?:inexpensive|cheap)(?:ly)?(?:.*(?:price\w|range))?",
         "affordabl[ey]",
         "(?:(?:price|range).*)?(?:less than|under) £? *20 *(?:pounds)?(?:.*(?:price\w|range))?",
@@ -79,57 +83,57 @@ REALIZATIONS = {
         "low\w*[- ]+price[ds]?(?: range)?",
         "prices?(?: range)?(?: \w+){0,3} low",
     ],
-    "pricerange_high": [
+    "price_range_high": [
             "(?:(?:price|range).*)?high\w*[- ]+(?:price[ds]?|range)(?: range)?",
         "(?:(?:price|range).*)?expensive\w*(?: (?:price\w|range|price range))?",
         "prices?(?: range)?(?: \w+){0,3} high",
     ],
-    "pricerange_moderate": [
-        "(?:moderate|reasonable|ok|average)(?:ly)?[- ]+(price[ds]?|pricing)(?: *range)?",
+    "price_range_moderate": [
+        "(?:moderate|reasonable|ok|average|mid)(?:ly)?[- ]+(price[ds]?|pricing|cost)(?: *range)?",
         "not cheap",
         "affordable",
         "mid[- ]+(?:range[- ]+)price[ds]?",
         "prices?(?: range)?(?: \w+){0,3} (?:ok|average|moderate|reasonable)",
     ],
-    "pricerange_more_than_£30": [
+    "price_range_more_than_£30": [
             "(?:(?:price|range).*)?(?:more than|over|start at|higher than) *(?:£? *30|thirty pounds)(?:.*(?:price\w|range))?",
         "(?:(?:price|range).*)?high\w*[- ]+price[ds]?(?: range)?",
         "(?:(?:price|range).*)?expensive\w*(?: (?:price\w|range|price range))?",
         "not cheap",
         "prices?(?: range)?(?: \w+){0,3} high",
     ],
-    "pricerange_£20-25": [
+    "price_range_£20-25": [
             "(?:(?:pric\w+|range).*)?(?:between|around)? *(?:£? *20|twenty) *(?:[-–]*|to|and) *(?:£? *25|twenty[- ]*five)(?: pounds?)?(?:.*(?:pric\w+|range))?",
         "(?:moderate|reasonable|ok|average|mid)(?:ly)?[- ]+price[ds]?(?: *range)?",
         "prices?(?: range)?(?: \w+){0,3} (?:ok|average|moderate|reasonable)",
         "affordable",
     ],
-    "customerrating_1_out_of_5": [
+    "rating_1_out_of_5": [
             "(?:(?:customer|rating|rated|star[^t]).*)?(?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
         "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?(?:low|bad|poor)(?:(?: \w+){0,3} (?:1|one)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
         "(?:low|bad|poor|(?:not|doesn't|isn't)(?: \w+){0,2} (:?good|well))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)(?:(?: \w+){0,3} (?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
     ],
-    "customerrating_3_out_of_5": [
+    "rating_3_out_of_5": [
             "(?:(?:customer|rating|rated|star[^t]).*)?(?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
         "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?average(?:(?: \w+){0,3} (?:3|three)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
         "(?:average|(?<!very )(?:good|well))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)(?:(?: \w+){0,3} (?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
     ],
-    "customerrating_5_out_of_5": [
+    "rating_5_out_of_5": [
             "(?:(?:customer|rating|rated|star[^t]).*)?(?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
         "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?high(?:(?: \w+){0,3} (?:5|five)(?:(?: out)? of (?:5|five)|[- ]+stars?))?",
-        "(?:high|excellent|very good|great)(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)(?:(?: \w+){0,3} (?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
+        "(?:high|excellent|very good|great)(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality|recommen\w+)(?:(?: \w+){0,3} (?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?))?",
     ],
-    "customerrating_high": [
+    "rating_high": [
             "(?:(?:customer|rating|rated|star[^t]).*)?(?:5|five)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
             "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?high",
         "(?:high|excellent|very good|great|well)(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)",
     ],
-    "customerrating_average": [
+    "rating_average": [
             "(?:(?:customer|rating|rated|star[^t]).*)?(?:3|three)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
         "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?average",
         "(?:average|(?<!very )(?:good|well))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)",
     ],
-    "customerrating_low": [
+    "rating_low": [
             "(?:(?:customer|rating|rated|star[^t]).*)?(?:1|one)(?:(?: out)? of (?:5|five)(?: stars?)?|[- ]+stars?)(?:.*(?:customers?|rating|rated))?",
         "(?:custome\w+ *)?(?:rat(?:ings?|e[ds]?)|reviews?|standards?|quality)(?: \w+){0,2} (?:as )?(?:low|bad|poor)",
         "(?:low|bad|poor|(?:not|doesn't|isn't)(?: \w+){0,2} (?:well|good))(?:ly)?(?:[ -]+\w+){0,2}[ -]+(?:rat(?:ings?|ed)|reviews?|standards?|quality)",
@@ -187,7 +191,7 @@ class Match(object):
 
 # TODO delete reference to DA dicts and just use a list of da+values as the
 # lookup in all situations
-def reclassify_mr(ref, gold_mr):
+def match_surface_forms(ref, gold_mr):
     """Classify the MR given a text. Can use a gold-standard MR to make the classification more
     precise (in case of ambiguity, goes with the gold-standard value). Returns a dict-based MR format
     for the system output MR and the gold-standard MR."""
@@ -238,7 +242,7 @@ def reclassify_mr(ref, gold_mr):
     surface_forms = {}
     # for match in filt_matches:
     for match in matches:
-        surface_forms[match.slot] = ref[match._start:match._end]
+        surface_forms[match.slot] = ref[match._start:match._end].strip()
     # if 'area_riverside' in surface_forms:
     #     if surface_forms['area_riverside'].strip() == 'river':
     #         print(ref)
@@ -249,6 +253,13 @@ def reclassify_mr(ref, gold_mr):
         # print(ref)
         for key in missing_keys:
             surface_forms[key] = 'missing'
+
+    # if 1 < len(missing_keys):
+    #     print(f'present keys {set(gold_mr) - missing_keys}')
+    #     print(f'missing keys {missing_keys}')
+    #     print(ref)
+    #     import ipdb; ipdb.set_trace()
+
     # print('missing from ref:', gold_mr - surface_forms.keys())
     # # print(sorted(gold_mr))
     # # print('added to ref', out_dict.keys() - mr_dict.keys())
@@ -267,7 +278,16 @@ def convert_mr(src_raw):
         value = dialogue_act[dialogue_act.find('[') + 1:dialogue_act.find(']')]
         value = value.replace(' ', '_').lower()
         slot = dialogue_act[0:dialogue_act.find('[')]
-        slot = slot.replace(' ', '').lower()
+        slot = slot.replace(' ', '_').lower()
+        # TODO wtf, Slot names are different in tgen than in system outputs 
+        if slot == 'customer_rating':
+            slot = 'rating'
+        elif slot == 'eattype':
+            slot = 'eat_type'
+        elif slot == 'familyfriendly':
+            slot = 'family_friendly'
+        elif slot == 'pricerange':
+            slot = 'price_range'
         if any(i in slot for i in ['name', 'near']):
             src_toks.append(slot)
         else:
@@ -289,7 +309,7 @@ def main():
         if '.src' in input_file_name:
             with open(input_file_name) as in_file:
                 src_toks = [line.split() for line in in_file]
-        elif any(i in input_file_name for i in ['.tgt', '.pred']):
+        elif any(i in input_file_name for i in ['.tgt', 'pred.txt']):
             with open(input_file_name) as in_file:
                 gen_text = [line.strip() for line in in_file]
         elif '.tsv' in input_file_name:
@@ -304,16 +324,17 @@ def main():
 
     form_count = defaultdict(Counter)
     for dialogue_acts, line in zip(tqdm(src_toks), gen_text):
-        surface_forms = reclassify_mr(line, dialogue_acts)
+        surface_forms = match_surface_forms(line, dialogue_acts)
         for key, value in surface_forms.items():
             form_count[key].update([value.strip()])
 
     for key, value in sorted(form_count.items()):
-        print(key, f'matches {sum(value.values())}')
-        # print(f'unique forms {len(value)}')
+        print(key)
+        print(f'matching DAs {sum(value.values())}')
+        print(f'unique forms {len(value)}')
         # if 'food' not in key:
         #     continue
-        for k, v in value.most_common(20):
+        for k, v in value.most_common(6):
             print('  ', k, v)
 
 #     [
