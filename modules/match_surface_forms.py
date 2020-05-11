@@ -67,7 +67,7 @@ REALIZATIONS = {
             ],
     'near_x-near': ['(?:(?:located)? ?(?:near|close|by|close by|next) ?(?:to)? ?(?:the)? ?)?X-near',
             ],
-    'near': ['(?:(?:located)? ?(?:near|close|by|close by|next)(?: to)?(?: the)?)?X-near',
+    'near': ['(?:(?:located)? ?(?:near|close|by|close by|next) ?(?:to)? ?(?:the)? ?)?X-near',
             ],
     "price_range_cheap": [
         "(?:(?:price|range).*)?(?:inexpensive|cheap)(?:ly)?(?:.*(?:price\w|range))?",
@@ -189,6 +189,51 @@ class Match(object):
         return str(self)
 
 
+def semantic_accuracy(ref, gold_mr):
+    """Find matches from the gold mr and see if any other slots appear
+    """
+    matches = []
+    for slot in gold_mr:
+        matches.extend([
+            Match(slot, slot, match)
+            for match in REALIZATIONS[slot].finditer(ref)
+        ])
+    other_slots = REALIZATIONS.keys() - set(gold_mr)
+    possible_added_matches = []
+    for slot in other_slots:
+        possible_added_matches.extend([
+            Match(slot, slot, match)
+            for match in REALIZATIONS[slot].finditer(ref)
+        ])
+    added_matches = []
+    for added_match in possible_added_matches:
+        if any(added_match.is_same_string(match) for match in matches):
+            continue
+        if any(added_match.is_substring(match) for match in matches):
+            for match in matches:
+                if added_match.is_substring(match):
+                    print(ref)
+                    print('added', added_match)
+                    print('match', match)
+            continue
+            # import ipdb; ipdb.set_trace()
+        added_matches.append(added_match)
+    missing_slots = set(gold_mr) - {match.slot for match in matches}
+    semantic_accuracy = {
+            'added': [match.slot for match in added_matches],
+            'missing': list(missing_slots),
+            'ok': [match.slot for match in matches],
+            }
+    if semantic_accuracy['added'] or semantic_accuracy['missing']:
+        print(ref)
+        pprint.pprint(semantic_accuracy)
+        import ipdb; ipdb.set_trace()
+    return semantic_accuracy
+
+
+
+
+
 # TODO delete reference to DA dicts and just use a list of da+values as the
 # lookup in all situations
 def match_surface_forms(ref, gold_mr):
@@ -279,7 +324,7 @@ def convert_mr(src_raw):
         value = value.replace(' ', '_').lower()
         slot = dialogue_act[0:dialogue_act.find('[')]
         slot = slot.replace(' ', '_').lower()
-        # TODO wtf, Slot names are different in tgen than in system outputs 
+        # TODO wtf, Slot names are different in tgen than in system outputs
         if slot == 'customer_rating':
             slot = 'rating'
         elif slot == 'eattype':
@@ -325,6 +370,7 @@ def main():
     form_count = defaultdict(Counter)
     for dialogue_acts, line in zip(tqdm(src_toks), gen_text):
         surface_forms = match_surface_forms(line, dialogue_acts)
+        _ = semantic_accuracy(line, dialogue_acts)
         for key, value in surface_forms.items():
             form_count[key].update([value.strip()])
 
@@ -340,12 +386,12 @@ def main():
 #     [
 #     (print(key, sum(value.values())), print('\t', k, v) for k, v in value.most_common(20))
 #      for key, value in sorted(form_count.items())
-     # ]
-     # if len(value.most_common()) > 0 and 'area' in key
-    # print(
-    #     sum(form_count['pricerange_£20-25'][key]
-    #         for key, _ in form_count['pricerange_£20-25'].items()
-    #         if '£ 20 - 25' in key))
+# ]
+# if len(value.most_common()) > 0 and 'area' in key
+# print(
+#     sum(form_count['pricerange_£20-25'][key]
+#         for key, _ in form_count['pricerange_£20-25'].items()
+#         if '£ 20 - 25' in key))
     import ipdb; ipdb.set_trace()
     # "(?:(?:price|range).*)?£? *20 *(?:[-–]*|to) *£? *25(?: pounds)?(?:.*(?:price\w|range))?",
 
