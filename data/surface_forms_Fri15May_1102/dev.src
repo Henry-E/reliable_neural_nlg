@@ -1,0 +1,547 @@
+name_x-name X-name area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_high high customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_high high customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 near_x-near near X-near
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 near_x-near near X-near
+name_x-name X-name rating_average average customer rating near_x-near near X-near
+name_x-name X-name rating_high high customer rating near_x-near near X-near
+name_x-name X-name rating_low low customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_high high customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese rating_low low customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_high high customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english rating_low low customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_city_centre in the city centre
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 rating_high high customer rating area_riverside in the riverside area
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area
+name_x-name X-name rating_average average customer rating area_city_centre in the city centre
+name_x-name X-name rating_average average customer rating area_riverside in the riverside area
+name_x-name X-name rating_high high customer rating area_riverside in the riverside area
+name_x-name X-name rating_low low customer rating area_city_centre in the city centre
+name_x-name X-name rating_low low customer rating area_riverside in the riverside area
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name rating_average average customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name rating_average average customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name rating_average average customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name rating_average average customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name rating_high high customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name rating_low low customer rating area_city_centre in the city centre family_friendly_no not family - friendly
+name_x-name X-name rating_low low customer rating area_city_centre in the city centre family_friendly_yes family friendly
+name_x-name X-name rating_low low customer rating area_riverside in the riverside area family_friendly_no not family - friendly
+name_x-name X-name rating_low low customer rating area_riverside in the riverside area family_friendly_yes family friendly
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_average average customer rating family_friendly_no not family - friendly
+name_x-name X-name rating_average average customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_average average customer rating family_friendly_yes family friendly
+name_x-name X-name rating_average average customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_high high customer rating family_friendly_yes family friendly
+name_x-name X-name rating_high high customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_low low customer rating family_friendly_no not family - friendly
+name_x-name X-name rating_low low customer rating family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name rating_low low customer rating family_friendly_yes family friendly
+name_x-name X-name rating_low low customer rating family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced area_city_centre in the city centre family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced area_city_centre in the city centre family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced area_riverside in the riverside area family_friendly_no not family - friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_more_than_£30 more than £ 30 area_riverside in the riverside area family_friendly_yes family friendly near_x-near near X-near
+name_x-name X-name rating_1_out_of_5 customer rating of 1 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name rating_3_out_of_5 customer rating of 3 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name rating_5_out_of_5 customer rating of 5 out of 5 area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name rating_average average customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name rating_average average customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name rating_high high customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name rating_low low customer rating area_city_centre in the city centre near_x-near near X-near
+name_x-name X-name rating_low low customer rating area_riverside in the riverside area near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_cheap cheap rating_average average customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_high high price range rating_average average customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_less_than_£20 less than £ 20 rating_low low customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_chinese chinese price_range_more_than_£30 more than £ 30 rating_high high customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_£20-25 price range of £ 20 - 25 rating_high high customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_5_out_of_5 customer rating of 5 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_cheap cheap rating_average average customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_1_out_of_5 customer rating of 1 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_high high price range rating_average average customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_less_than_£20 less than £ 20 rating_low low customer rating near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_1_out_of_5 customer rating of 1 out of 5 near_x-near near X-near
+name_x-name X-name eat_type_coffee_shop coffee shop food_english english price_range_moderate moderately priced rating_3_out_of_5 customer rating of 3 out of 5 near_x-near near X-near
