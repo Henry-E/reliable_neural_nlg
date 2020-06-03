@@ -24,10 +24,13 @@ def convert_mr(src_raw):
     return ' '.join(src_toks)
 
 
-def create_src_tgt(input_file_names, output_dir_name, experiment, debug=False):
+def create_src_and_tgt(input_file_names, output_dir_name, experiment, debug=False):
     """split out the src and tgt logic
 
     This way we can do train, dev etc. all in one call
+
+    The default for baseline is to use the convert_mr function and store that
+    output.
     """
     srcs = []
     tgts = []
@@ -57,7 +60,11 @@ def create_src_tgt(input_file_names, output_dir_name, experiment, debug=False):
                 form_count[key].update([value.strip()])
         srcs = new_srcs
 
+    input_file_root = os.path.basename(os.path.splitext(input_file_name)[0])
+    input_file_root = input_file_root[:input_file_root.find('-')]
+
     if debug:
+        print(f'Skipping {input_file_root}')
         return form_count
 
     # We only create the output dir here in case something else messes up
@@ -65,17 +72,57 @@ def create_src_tgt(input_file_names, output_dir_name, experiment, debug=False):
     if not os.path.exists(output_dir_name):
         os.mkdir(output_dir_name)
 
-    input_file_root = os.path.basename(os.path.splitext(input_file_name)[0])
-    input_file_root = input_file_root[:input_file_root.find('-')]
-
     src_file_name = os.path.join(output_dir_name, input_file_root + '.src')
     with open(src_file_name, 'w') as out_file:
+        print(f'Writing {src_file_name}')
         out_file.write('\n'.join(srcs))
     tgt_file_name = os.path.join(output_dir_name, input_file_root + '.tgt')
     with open(tgt_file_name, 'w') as out_file:
+        print(f'Writing {tgt_file_name}')
         out_file.write('\n'.join(tgts))
 
     return form_count
+
+
+def create_src(args, form_count, output_dir_name, file_type):
+    """ Creates dev and test source files for getting outputs for bleu scoring
+    """
+    input_file_name = [i for i in args.input_file_names if f'{file_type}-das.txt' in i][0]
+    if input_file_name:
+        with open(input_file_name) as in_file:
+            # This is our baseline format for the source MR
+            srcs = [convert_mr(line.strip()) for line in in_file]
+        if args.experiment in ['surface_forms']:
+            new_srcs = []
+            for src in srcs:
+                new_src = []
+                for slot in src.split():
+                    # This was from an experiment to see if more verbose
+                    # choices for the output would work better, but they
+                    # seemingly didn't. Instead we stick with taking the most
+                    # common non-missing phrase for each slot.
+                    # if slot in [
+                    #         'price_range_cheap', 'price_range_moderate',
+                    #         'area_city_centre',
+                    # ]:
+                    #     value = form_count[slot].most_common(2)[1][0]
+                    # elif slot in [
+                    #         'price_range_less_than_£20',
+                    #         'price_range_more_than_£30',
+                    # ]:
+                    #     value = form_count[slot].most_common(3)[2][0]
+                    # else:
+                    value = form_count[slot].most_common(1)[0][0]
+                    new_src.extend([slot, value])
+                new_srcs.append(' '.join(new_src))
+            srcs = new_srcs
+        if args.debug:
+            print(f'Skipping {file_type}')
+            return
+        src_file_name = os.path.join(output_dir_name, f'{file_type}.src')
+        with open(src_file_name, 'w') as out_file:
+            print(f'Writing {src_file_name}')
+            out_file.write('\n'.join(srcs))
 
 
 def main():
@@ -96,53 +143,62 @@ def main():
     output_dir_root = '_'.join([args.experiment, datetime_stamp])
     output_dir_name = os.path.join(args.output_dir_name, output_dir_root)
 
+    # import ipdb; ipdb.set_trace()
     train_file_names = [i for i in args.input_file_names if 'train' in i]
     valid_file_names = [
         i for i in args.input_file_names if 'valid_single_ref' in i
     ]
 
-    form_count = create_src_tgt(train_file_names, output_dir_name,
-                                args.experiment, args.debug)
-    _ = create_src_tgt(valid_file_names, output_dir_name, args.experiment,
-                       args.debug)
-    # dev-conc.txt is the tgt when running measure_scores.py
-    dev_file_name = [i for i in args.input_file_names if 'dev-das.txt' in i][0]
-    if dev_file_name:
-        with open(dev_file_name) as in_file:
-            srcs = [convert_mr(line.strip()) for line in in_file]
-        if args.experiment in ['surface_forms']:
-            new_srcs = []
-            for src in srcs:
-                new_src = []
-                for slot in src.split():
-                    if slot in [
-                            'price_range_cheap', 'price_range_moderate',
-                            'area_city_centre',
-                    ]:
-                        value = form_count[slot].most_common(2)[1][0]
-                    elif slot in [
-                            'price_range_less_than_£20',
-                            'price_range_more_than_£30',
-                    ]:
-                        value = form_count[slot].most_common(3)[2][0]
-                    else:
-                        value = form_count[slot].most_common(1)[0][0]
-                    new_src.extend([slot, value])
-                new_srcs.append(' '.join(new_src))
-            srcs = new_srcs
-        if args.debug:
-            return
-        src_file_name = os.path.join(output_dir_name, 'dev.src')
-        with open(src_file_name, 'w') as out_file:
-            out_file.write('\n'.join(srcs))
-    # if we had to do this more than twice we would put it in a function
-    # test_file_name = [i for i in args.input_file_names if 'test-das.txt' in i]
-    # if test_file_name:
-    #     with open(test_file_name) as in_file:
-    #         src = [convert_mr(line.strip()) for line in in_file]
-    #     src_file_name = os.path.join(output_dir_name, 'test.src')
+    form_count = create_src_and_tgt(train_file_names, output_dir_name,
+                                    args.experiment, args.debug)
+    _ = create_src_and_tgt(valid_file_names, output_dir_name, args.experiment,
+                           args.debug)
+    # Create just the src files for translating and then evaluating with bleu
+    create_src(args, form_count, output_dir_name, file_type='dev')
+    create_src(args, form_count, output_dir_name, file_type='test')
+
+    # # dev-conc.txt is the tgt when running measure_scores.py
+    # dev_file_name = [i for i in args.input_file_names if 'dev-das.txt' in i][0]
+    # if dev_file_name:
+    #     with open(dev_file_name) as in_file:
+    #         srcs = [convert_mr(line.strip()) for line in in_file]
+    #     if args.experiment in ['surface_forms']:
+    #         new_srcs = []
+    #         for src in srcs:
+    #             new_src = []
+    #             for slot in src.split():
+    #                 # This was from an experiment to see if more verbose
+    #                 # choices for the output would work better, but they
+    #                 # seemingly didn't. Instead we stick with taking the most
+    #                 # common non-missing phrase for each slot.
+    #                 # if slot in [
+    #                 #         'price_range_cheap', 'price_range_moderate',
+    #                 #         'area_city_centre',
+    #                 # ]:
+    #                 #     value = form_count[slot].most_common(2)[1][0]
+    #                 # elif slot in [
+    #                 #         'price_range_less_than_£20',
+    #                 #         'price_range_more_than_£30',
+    #                 # ]:
+    #                 #     value = form_count[slot].most_common(3)[2][0]
+    #                 # else:
+    #                 value = form_count[slot].most_common(1)[0][0]
+    #                 new_src.extend([slot, value])
+    #             new_srcs.append(' '.join(new_src))
+    #         srcs = new_srcs
+    #     if args.debug:
+    #         return
+    #     src_file_name = os.path.join(output_dir_name, 'dev.src')
     #     with open(src_file_name, 'w') as out_file:
-    #         out_file.write('\n'.join(src))
+    #         out_file.write('\n'.join(srcs))
+    # # if we had to do this more than twice we would put it in a function
+    # # test_file_name = [i for i in args.input_file_names if 'test-das.txt' in i]
+    # # if test_file_name:
+    # #     with open(test_file_name) as in_file:
+    # #         src = [convert_mr(line.strip()) for line in in_file]
+    # #     src_file_name = os.path.join(output_dir_name, 'test.src')
+    # #     with open(src_file_name, 'w') as out_file:
+    # #         out_file.write('\n'.join(src))
 
 
 if __name__ == '__main__':

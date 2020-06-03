@@ -1,11 +1,11 @@
 tensorboard_log_dir="/home/henrye/projects/clear_tasks/experiments/tensorboard"
-preprocess_dir_name="/home/henrye/projects/clear_tasks/experiments/preprocess/surface_forms_Tue12May_1103"
-train_dir_name="/home/henrye/projects/clear_tasks/experiments/train/surface_forms_$(date '+%a%d%b_%H%M')"
+preprocess_dir_name="/home/henrye/projects/clear_tasks/experiments/preprocess/baseline_Mon18May_0936"
+train_dir_name="/home/henrye/projects/clear_tasks/experiments/train/baseline_$(date '+%a%d%b_%H%M')"
 mkdir -p "$train_dir_name"
 python /home/henrye/downloads/OpenNMT-py/train.py \
-    -data "$preprocess_dir_name"/sf \
-    -save_model "$train_dir_name"/sf \
-    -log_file "$train_dir_name"/sf.log.txt \
+    -data "$preprocess_dir_name"/baseline \
+    -save_model "$train_dir_name"/baseline \
+    -log_file "$train_dir_name"/baseline.log.txt \
     --optim adam \
     --learning_rate 0.001 \
     --encoder_type brnn \
@@ -23,4 +23,4 @@ python /home/henrye/downloads/OpenNMT-py/train.py \
     --world_size 2 \
     --gpu_ranks 0 1 \
     --tensorboard \
-    --tensorboard_log_dir "$tensorboard_log_dir"
+    --tensorboard_log_dir "$tensorboard_log_dir"/baseline
