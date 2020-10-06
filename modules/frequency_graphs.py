@@ -201,9 +201,13 @@ def main():
         # print(num_remaining_phrases)
         # import ipdb; ipdb.set_trace()
         ax.set_xticklabels(bar_labels, minor=True)
-        ax.tick_params(axis='x', which='minor', length=0, rotation=50)
+        if 4 < len(all_heights['train']):
+            ax.tick_params(axis='x', which='minor', length=0, rotation=80)
+        else:
+            ax.tick_params(axis='x', which='minor', length=0, rotation=50)
         plt.legend()
-        plt.title(f"Frequency of Surface Forms for {slot_mapping[slot]}", fontsize='x-large')
+        # plt.title(f"Frequency of Surface Forms for {slot_mapping[slot]}", fontsize='x-large')
+        plt.title(f"{slot_mapping[slot]}", fontsize='x-large')
         # Percentages on the y-axis https://stackoverflow.com/a/36319915/4507677
         ax.yaxis.set_major_formatter(mtick.PercentFormatter())
         plt.ylabel('Frequency', fontsize='x-large')
@@ -216,6 +220,7 @@ def main():
         plt.savefig(f'/home/henrye/projects/clear_tasks/experiments/frequency_graphs/{slot}.png', c='k')
         print(f'{slot}')
         plt.clf()
+
 
 
     # # slot = 'rating_3_out_of_5'
