@@ -130,6 +130,8 @@ def main():
                 # remaining label itself
                 num_remaining_phrases = len(all_form_counts[name][slot]) - len(all_heights[name]) + 1
                 all_heights[name][-1] = total_remaining / total_count
+            else: 
+                num_remaining_phrases = 0
             # A quick hack to make heights into percentages
             for i, height in enumerate(all_heights[name][:]):
                 all_heights[name][i] = height * 100
@@ -195,6 +197,8 @@ def main():
         if 'missing' in bar_labels:
             idx = bar_labels.index('missing')
             bar_labels[idx] = '$\\mathbf{SF\, not\, found}$'
+        # if slot in ['eat_type_restaurant']:
+        #     import ipdb; ipdb.set_trace()
         if 'remaining' in bar_labels:
             idx = bar_labels.index('remaining')
             bar_labels[idx] = f'$\\mathbf{{{num_remaining_phrases}\, Remaining\, SFs}}$'
