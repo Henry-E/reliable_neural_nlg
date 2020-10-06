@@ -1,2 +1,2 @@
 # clear_tasks
-EMNLP paper on designing inputs representations
+EMNLP paper on designing input representations
