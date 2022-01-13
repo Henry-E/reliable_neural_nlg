@@ -1,300 +1,300 @@
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range=£20-25, ,rating='3 out of 5', ,area=riverside, ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-The Vaults is a Japanese pub near Rainbow Vegetarian Café in the riverside area. It is kid friendly and has a customer rating of 3 out of 5.
-
-name=Giraffe, ,eat_type=restaurant, ,food='Fast food', ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-Giraffe is a family friendly fast food restaurant in the riverside area near Raja Indian Cuisine.
-
-name='The Phoenix', ,eat_type=pub, ,food=French, ,price_range='more than £30', ,rating='5 out of 5', ,area=riverside, ,family_friendly=no, ,near='Crowne Plaza Hotel', ,added
-The Phoenix is a French pub located near Crowne Plaza Hotel in the riverside area. It has a customer rating of 5 out of 5 and is not children friendly.
-
-name='The Mill', ,eat_type=pub, ,food='Fast food', ,price_range=moderate, ,rating='1 out of 5', ,area=riverside, ,family_friendly=yes, ,near='Café Sicilia', ,added
-The Mill is a family friendly pub that serves fast food. It is located near Café Sicilia.
-
-name='The Mill', ,eat_type=restaurant, ,food=English, ,price_range=moderate, ,rating='1 out of 5', ,area=riverside, ,family_friendly=yes, ,near='Café Rouge', ,added
-The Mill is a moderately priced restaurant that is family friendly. It is located near Café Rouge.
-
-name='The Vaults', ,eat_type=pub, ,food=Italian, ,price_range=high, ,rating=average, ,area=riverside, ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-The Vaults is a children friendly Italian pub in the riverside area near Rainbow Vegetarian Café. It has an average customer rating and a high price range.
-
-name='The Waterman', ,eat_type=restaurant, ,food=Indian, ,price_range='less than £20', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Waterman is a restaurant providing Indian food in the less than £20 price range. It is located in the city centre. It is near Raja Indian Cuisine.
-
-name=Giraffe, ,eat_type=restaurant, ,food='Fast food', ,area='city centre', ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-Giraffe is a fast food restaurant near Rainbow Vegetarian Café in the city centre. It is not family-friendly.
-
-name='The Vaults', ,eat_type=pub, ,food=Italian, ,price_range=moderate, ,rating='1 out of 5', ,area='city centre', ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-The Vaults is a moderately priced Italian pub in the city centre near Rainbow Vegetarian Café. It is kid friendly and has a customer rating of 1 out of 5.
-
-name=Wildwood, ,eat_type=pub, ,food=Italian, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-Wildwood is a family-friendly Italian pub near Raja Indian Cuisine in the city centre.
-
-name='The Vaults', ,eat_type=pub, ,food=French, ,price_range='more than £30', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Vaults is a French pub near Raja Indian Cuisine in the city centre. It is not child friendly and has a price range of more than £30.
-
-name='Blue Spice', ,eat_type=restaurant, ,food=Chinese, ,area=riverside, ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-Blue Spice is a Chinese restaurant in the riverside area near Rainbow Vegetarian Café. It is not family friendly.
-
-name='The Cricketers', ,eat_type='coffee shop', ,rating='3 out of 5', ,family_friendly=yes, ,near=Avalon, ,added
-The Cricketers is a coffee shop near Avalon. It is kid friendly and has a customer rating of 3 out of 5.
-
-name='The Phoenix', ,eat_type=pub, ,food=French, ,price_range=cheap, ,rating='5 out of 5', ,area=riverside, ,family_friendly=yes, ,near='Crowne Plaza Hotel', ,added
-The Phoenix is a cheap, family-friendly, French pub in the riverside area near Crowne Plaza Hotel. It has a customer rating of 5 out of 5.
-
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range=cheap, ,rating='5 out of 5', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Vaults is a cheap Japanese pub located near Raja Indian Cuisine in the city centre. It is not family-friendly and has a customer rating of 5 out of 5.
-
-name='The Phoenix', ,eat_type=restaurant, ,food=Indian, ,price_range=cheap, ,rating='5 out of 5', ,area='city centre', ,family_friendly=yes, ,near='Crowne Plaza Hotel', ,added
-The Phoenix provides Indian food in the cheap price range. It is located in the city centre. It is near Crowne Plaza Hotel. Its customer rating is 5 out of 5.
-
-name='The Mill', ,eat_type=restaurant, ,food='Fast food', ,price_range=cheap, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Mill is a cheap fast food restaurant in the riverside area near Raja Indian Cuisine. It is family friendly.
-
-name='The Mill', ,eat_type=pub, ,food='Fast food', ,price_range=high, ,rating='1 out of 5', ,area='city centre', ,family_friendly=yes, ,near='Café Sicilia', ,added
-The Mill is a children friendly fast food pub in the city centre near Café Sicilia. It has a high price range and a customer rating of 1 out of 5.
-
-name='The Vaults', ,eat_type=pub, ,food=Italian, ,price_range=high, ,rating=average, ,area='city centre', ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-The Vaults is a children friendly Italian pub in the city centre near Rainbow Vegetarian Café. It has a high price range and an average customer rating.
-
-name='The Mill', ,eat_type=restaurant, ,food=English, ,price_range=moderate, ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Mill is a moderately priced English restaurant in riverside near Raja Indian Cuisine. It is not kid friendly.
-
-name=Giraffe, ,eat_type=restaurant, ,food='Fast food', ,area='city centre', ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-Giraffe is a family-friendly fast food restaurant near Rainbow Vegetarian Café in the city centre.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range='less than £20', ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a Japanese pub located near Raja Indian Cuisine in the riverside area. It is not family-friendly and has a price range of less than £20.
-
-name='The Phoenix', ,eat_type=pub, ,food='Fast food', ,price_range=moderate, ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Phoenix is a moderately priced fast food pub in the city centre near Raja Indian Cuisine. It is not kid friendly.
-
-name=Wildwood, ,eat_type=restaurant, ,food=Indian, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-Wildwood is a family friendly Indian restaurant in the city centre near Raja Indian Cuisine.
-
-name=Zizzi, ,eat_type=pub, ,rating=average, ,near='Burger King', ,added
-Zizzi is a pub near Burger King with an average customer rating.
-
-name='The Phoenix', ,eat_type=pub, ,food='Fast food', ,price_range=high, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Phoenix is a children friendly fast food pub in the riverside area near Raja Indian Cuisine. It has a high price range.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range=moderate, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a moderately priced Japanese pub in the riverside area near Raja Indian Cuisine. It is kid friendly.
-
-name='The Vaults', ,eat_type=restaurant, ,food=French, ,price_range=high, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Vaults is a children friendly French restaurant located near Raja Indian Cuisine in the riverside area. It has a high price range.
-
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range='less than £20', ,rating=low, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Vaults is a low-priced, family-friendly pub located near Raja Indian Cuisine.
-
-name='The Cricketers', ,eat_type=restaurant, ,food=Chinese, ,price_range=£20-25, ,rating=high, ,area='city centre', ,family_friendly=no, ,near='All Bar One', ,added
-The Cricketers provides Chinese food in the £20-25 price range. It is located in the city centre. It is near All Bar One. Its customer rating is high.
-
-name='The Punter', ,eat_type=pub, ,food=Chinese, ,price_range='less than £20', ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Punter is a pub that provides Chinese food in the less than £20 price range. It is located in the riverside. It is near Raja Indian Cuisine.
-
-name='The Plough', ,eat_type=restaurant, ,food=Chinese, ,price_range='less than £20', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Plough provides Chinese food in the less than £20 price range. It is located in the city centre. It is near Raja Indian Cuisine.
-
-name=Giraffe, ,eat_type=restaurant, ,food=French, ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-Giraffe is a French restaurant located in the city centre near Raja Indian Cuisine. It is not family-friendly.
-
-name='The Wrestlers', ,eat_type=restaurant, ,food=Italian, ,price_range=moderate, ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a moderately priced Italian restaurant in the city centre near Raja Indian Cuisine. It is not kid friendly.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range='more than £30', ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a children friendly pub that serves Japanese food. It is located near Raja Indian Cuisine in the city centre. The price range is more than £30.
-
-name='The Phoenix', ,eat_type=pub, ,food=French, ,price_range='more than £30', ,rating='5 out of 5', ,area='city centre', ,family_friendly=yes, ,near='Crowne Plaza Hotel', ,added
-The Phoenix is a children friendly French pub in the city centre near Crowne Plaza Hotel. It has a customer rating of 5 out of 5 and a price range of more than £30.
-
-name='The Phoenix', ,eat_type=restaurant, ,food='Fast food', ,price_range=moderate, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Phoenix is a moderately priced fast food restaurant in the city centre near Raja Indian Cuisine. It is kid friendly.
-
-name=Cocum, ,eat_type='coffee shop', ,near='The Rice Boat', ,added
-Cocum is a coffee shop with a high customer rating. It is located near The Rice Boat.
-
-name='The Cricketers', ,eat_type=restaurant, ,food=Chinese, ,price_range=high, ,rating='1 out of 5', ,area='city centre', ,family_friendly=yes, ,near='All Bar One', ,added
-The Cricketers provides Chinese food in the high price range. It is located in the city centre. It is near All Bar One. Its customer rating is 1 out of 5.
-
-name='The Waterman', ,eat_type=pub, ,food=Italian, ,price_range=high, ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Waterman is a high priced Italian pub in the riverside area near Raja Indian Cuisine. It is not child friendly.
-
-name='The Cricketers', ,eat_type=restaurant, ,food=Chinese, ,price_range=high, ,rating=average, ,area=riverside, ,family_friendly=yes, ,near='All Bar One', ,added
-The Cricketers provides Chinese food in the high price range. It is located in the riverside. It is near All Bar One. Its customer rating is average.
-
-name=Wildwood, ,eat_type=pub, ,food=Indian, ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-Wildwood is a pub that provides Indian food it is located in the city centre. It is near Raja Indian Cuisine.
-
-name='The Cricketers', ,eat_type=restaurant, ,food=Chinese, ,price_range=high, ,rating=average, ,area='city centre', ,family_friendly=yes, ,near='All Bar One', ,added
-The Cricketers provides Chinese food in the high price range. It is located in the city centre. It is near All Bar One. Its customer rating is average.
-
-name='The Wrestlers', ,eat_type=restaurant, ,food=Japanese, ,price_range=moderate, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a moderately priced Japanese restaurant in the city centre near Raja Indian Cuisine. It is kid friendly.
-
-name=Giraffe, ,eat_type=pub, ,near='The Bakers', ,added
-Giraffe pub is located near The Bakers.
-
-name='Green Man', ,eat_type='coffee shop', ,rating='1 out of 5', ,near='All Bar One', ,added
-Green Man is a coffee shop near All Bar One. It has a customer rating of 1 out of 5.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range='more than £30', ,rating=low, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a Japanese pub located near Raja Indian Cuisine in the riverside area. It is child friendly and has a low customer rating.
-
-name='The Phoenix', ,eat_type=restaurant, ,food=Indian, ,price_range=cheap, ,rating='5 out of 5', ,area=riverside, ,family_friendly=no, ,near='Crowne Plaza Hotel', ,added
-The Phoenix provides Indian food in the cheap price range. It is located in the riverside. It is near Crowne Plaza Hotel. Its customer rating is 5 out of 5.
-
-name=Strada, ,eat_type='coffee shop', ,rating='1 out of 5', ,near='Rainbow Vegetarian Café', ,added
-Strada is a coffee shop near Rainbow Vegetarian Café. It has a customer rating of 1 out of 5.
-
-name='The Wrestlers', ,eat_type=restaurant, ,food=Japanese, ,price_range='more than £30', ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a Japanese restaurant located near Raja Indian Cuisine in the riverside area. It is child friendly and has a price range of more than £30.
-
-name=Wildwood, ,eat_type=restaurant, ,food=Indian, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-Wildwood is a family friendly Indian restaurant in the riverside area near Raja Indian Cuisine.
-
-name='The Punter', ,eat_type=restaurant, ,food=Italian, ,price_range=cheap, ,rating=average, ,area=riverside, ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-The Punter is a cheap restaurant that is family friendly. It is located near Rainbow Vegetarian Café.
-
-name='The Vaults', ,eat_type=restaurant, ,food=French, ,price_range='less than £20', ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Vaults is a French restaurant located near Raja Indian Cuisine in the riverside area. It is not family-friendly and has a price range of less than £20.
-
-name='The Phoenix', ,eat_type=restaurant, ,food='Fast food', ,price_range='less than £20', ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Phoenix is a cheap fast food restaurant that is family friendly. It is located near Raja Indian Cuisine in the riverside area.
-
-name='The Phoenix', ,eat_type=restaurant, ,food=Indian, ,price_range=£20-25, ,rating=high, ,area='city centre', ,family_friendly=yes, ,near='Crowne Plaza Hotel', ,added
-The Phoenix provides Indian food in the £20-25 price range. It is located in the city centre. It is near Crowne Plaza Hotel. Its customer rating is high.
-
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range=high, ,rating='3 out of 5', ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Vaults is a Japanese pub located near Raja Indian Cuisine in the riverside area. It is children friendly and has a customer rating of 3 out of 5.
-
-name='The Mill', ,eat_type=pub, ,food=English, ,price_range='more than £30', ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Mill is a children friendly English pub in the riverside area near Raja Indian Cuisine. It has a price range of more than £30.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range=cheap, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a cheap, family friendly pub that serves Japanese food. It is located in the riverside area near Raja Indian Cuisine.
-
-name='The Vaults', ,eat_type=restaurant, ,food=French, ,price_range=moderate, ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Vaults is a moderately priced French restaurant in the city centre near Raja Indian Cuisine. It is not kid friendly.
-
-name='The Vaults', ,eat_type=pub, ,food=Italian, ,price_range='less than £20', ,rating=low, ,area=riverside, ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-The Vaults is an Italian pub located near Rainbow Vegetarian Café in the riverside area. It has a low customer rating and is not family-friendly.
-
-name='The Wrestlers', ,eat_type=restaurant, ,food=Japanese, ,price_range=moderate, ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a moderately priced Japanese restaurant in the city centre near Raja Indian Cuisine. It is not kid friendly.
-
-name='Blue Spice', ,eat_type=restaurant, ,food=English, ,area=riverside, ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-Blue Spice is an English restaurant in the riverside area near Rainbow Vegetarian Café. It is not family-friendly.
-
-name='The Punter', ,eat_type=restaurant, ,food=Indian, ,price_range='less than £20', ,rating=low, ,area='city centre', ,family_friendly=yes, ,near='Express by Holiday Inn', ,added
-The Punter provides Indian food in the less than £20 price range. It is located in the city centre. It is near Express by Holiday Inn. Its customer rating is low.
-
-name='The Mill', ,eat_type=pub, ,food='Fast food', ,price_range='less than £20', ,rating=low, ,area='city centre', ,family_friendly=no, ,near='Café Sicilia', ,added
-The Mill is a cheap fast food pub located near Café Sicilia in the city centre. It is not family-friendly and has a low customer rating.
-
-name='The Phoenix', ,eat_type=restaurant, ,food=Indian, ,price_range=£20-25, ,rating=high, ,area=riverside, ,family_friendly=yes, ,near='Crowne Plaza Hotel', ,added
-The Phoenix provides Indian food in the £20-25 price range. It is located in the riverside. It is near Crowne Plaza Hotel. Its customer rating is high.
-
-name='The Mill', ,eat_type=restaurant, ,food=English, ,price_range='less than £20', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Mill is a restaurant providing English food in the low price range. It is located in the city centre near Raja Indian Cuisine.
-
-name=Giraffe, ,eat_type=pub, ,food='Fast food', ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-Giraffe is a family friendly pub that serves fast food. It is located near Raja Indian Cuisine in the riverside area.
-
-name='The Punter', ,eat_type=restaurant, ,food=Italian, ,price_range=£20-25, ,rating=high, ,area='city centre', ,family_friendly=yes, ,near='Express by Holiday Inn', ,added
-The Punter is a kid friendly Italian restaurant in the city centre near Express by Holiday Inn. It has a high customer rating and a price range of £20-25.
-
-name=Zizzi, ,eat_type='coffee shop', ,near='The Sorrento', ,added
-Zizzi is a coffee shop with a high customer rating. It is located near The Sorrento.
-
-name='The Waterman', ,eat_type=restaurant, ,food=Indian, ,price_range=high, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Waterman is a high priced Indian restaurant in the city centre near Raja Indian Cuisine. It is children friendly.
-
-name='The Mill', ,eat_type=pub, ,food='Fast food', ,price_range=cheap, ,rating=average, ,area=riverside, ,family_friendly=no, ,near='Café Sicilia', ,added
-The Mill is a cheap fast food pub in the riverside area near Café Sicilia. It is not family-friendly and has an average customer rating.
-
-name=Clowns, ,eat_type='coffee shop', ,rating='5 out of 5', ,near='Crowne Plaza Hotel', ,added
-Clowns is a coffee shop with a customer rating of 5 out of 5. It is located near Crowne Plaza Hotel.
-
-name=Wildwood, ,eat_type=restaurant, ,food=Italian, ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-Wildwood is an Italian restaurant near Raja Indian Cuisine in the riverside area. It is not family-friendly.
-
-name=Giraffe, ,eat_type=pub, ,food='Fast food', ,area='city centre', ,family_friendly=yes, ,near='Rainbow Vegetarian Café', ,added
-Giraffe is a family-friendly fast food pub near Rainbow Vegetarian Café in the city centre.
-
-name='The Mill', ,eat_type=pub, ,food=English, ,price_range=moderate, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Mill is a moderately priced, kid friendly pub that serves English food. It is located near Raja Indian Cuisine in the riverside area.
-
-name='The Vaults', ,eat_type=restaurant, ,food=French, ,price_range='more than £30', ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Vaults is a French restaurant in the city centre near Raja Indian Cuisine. It is child friendly and has a price range of more than £30.
-
-name='The Waterman', ,eat_type=restaurant, ,food=Italian, ,price_range='less than £20', ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Waterman is a family-friendly Italian restaurant in the city centre near Raja Indian Cuisine. It has a price range of less than £20.
-
-name='The Punter', ,eat_type=restaurant, ,food=Italian, ,price_range=cheap, ,rating='5 out of 5', ,area=riverside, ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-The Punter is a cheap Italian restaurant in the riverside area near Rainbow Vegetarian Café. It has a customer rating of 5 out of 5 and is not family-friendly.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Italian, ,price_range=moderate, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a moderately priced Italian pub in the riverside area near Raja Indian Cuisine. It is kid friendly.
-
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range='less than £20', ,rating=average, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Vaults is a Japanese pub located in the city centre near Raja Indian Cuisine. It is family-friendly and has an average customer rating.
-
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range=cheap, ,rating='5 out of 5', ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Vaults is a cheap Japanese pub located near Raja Indian Cuisine in the riverside area. It is not family-friendly and has a customer rating of 5 out of 5.
-
-name='The Vaults', ,eat_type=pub, ,food=Japanese, ,price_range='less than £20', ,rating=average, ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Vaults is a Japanese pub located near Raja Indian Cuisine in the riverside area. It has an average customer rating and is not family-friendly.
-
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range='more than £30', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a Japanese pub located near Raja Indian Cuisine in the city centre. It is not child friendly and has a price range of more than £30.
-
-name='The Vaults', ,eat_type=pub, ,food=Italian, ,price_range=high, ,rating=average, ,area=riverside, ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-The Vaults is a high priced Italian pub in the riverside area near Rainbow Vegetarian Café. It is not children friendly and has an average customer rating.
-
-name='The Waterman', ,eat_type=restaurant, ,food=Italian, ,price_range=£20-25, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Waterman is a kid friendly Italian restaurant in the riverside area near Raja Indian Cuisine. It has a price range of £20-25.
-
-name='The Punter', ,eat_type=restaurant, ,food=Chinese, ,price_range='less than £20', ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Punter is a Chinese restaurant in the city centre near Raja Indian Cuisine. It has a price range of less than £20 and is family friendly.
-
-name='The Plough', ,eat_type=restaurant, ,food=Chinese, ,price_range=£20-25, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Plough provides Chinese food in the £20-25 price range. It is located in the riverside. It is near Raja Indian Cuisine.
-
-name='The Punter', ,eat_type=restaurant, ,food=Italian, ,price_range=cheap, ,rating=average, ,area=riverside, ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-The Punter is a cheap Italian restaurant in the riverside area near Rainbow Vegetarian Café. It is not family-friendly and has an average customer rating.
-
-name='The Punter', ,eat_type=restaurant, ,food=Italian, ,price_range=high, ,rating='1 out of 5', ,area='city centre', ,family_friendly=no, ,near='Rainbow Vegetarian Café', ,added
-The Punter is an Italian restaurant located in the city centre near Rainbow Vegetarian Café. It is not child friendly and has a customer rating of 1 out of 5.
-
-name='The Mill', ,eat_type=pub, ,food=English, ,price_range='less than £20', ,area='city centre', ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
+name='The Mill'* *eat_type=pub* *food=English* *price_range='less than £20'* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
 The Mill is an English pub near Raja Indian Cuisine in the city centre. It is not family-friendly and has a price range of less than £20.
 
-name='The Wrestlers', ,eat_type=pub, ,food=Japanese, ,price_range=£20-25, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a Japanese pub near Raja Indian Cuisine in the riverside area. It is kid friendly and has a price range of £20-25.
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range=moderate* *rating='3 out of 5'* *area=riverside* *family_friendly=yes* *near='All Bar One'* *added* *disfluency
+The Cricketers is a moderately priced Chinese restaurant with a customer rating of 3 out of 5. It is located in riverside near All Bar One and is kid friendly.
 
-name='The Waterman', ,eat_type=pub, ,food=Indian, ,price_range=moderate, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
+name='The Phoenix'* *eat_type=restaurant* *food=Indian* *price_range=cheap* *rating='5 out of 5'* *area='city centre'* *family_friendly=yes* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix provides Indian food in the cheap price range. It is located in the city centre. It is near Crowne Plaza Hotel. Its customer rating is 5 out of 5.
+
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range=high* *rating='3 out of 5'* *area=riverside* *family_friendly=yes* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a family friendly pub located near Crowne Plaza Hotel. It is in the high price range.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=£20-25* *rating=high* *area=riverside* *family_friendly=yes* *near='Café Sicilia'* *added* *disfluency
+The Mill is a family friendly pub that serves fast food. It is located near Café Sicilia.
+
+name='The Phoenix'* *eat_type=pub* *food='Fast food'* *price_range='more than £30'* *rating=high* *area='city centre'* *family_friendly=no* *near='Café Sicilia'* *added* *disfluency
+The Phoenix is a fast food pub located near Café Sicilia in the city centre. It has a high customer rating and is not children friendly.
+
+name='The Waterman'* *eat_type=pub* *food=Indian* *price_range=moderate* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
 The Waterman is a pub that provides Indian food in the moderate price range. It is located in the riverside. It is near Raja Indian Cuisine.
 
-name='The Cricketers', ,eat_type=restaurant, ,food=Chinese, ,price_range=cheap, ,rating=average, ,area=riverside, ,family_friendly=no, ,near='All Bar One', ,added
-The Cricketers provides Chinese food in the cheap price range. It is located in the riverside. It is near All Bar One. Its customer rating is average.
+name='The Vaults'* *eat_type=pub* *food=Indian* *price_range=cheap* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a pub that provides Indian food in the cheap price range. It is located in the riverside. It is near Raja Indian Cuisine.
 
-name='The Mill', ,eat_type=restaurant, ,food=English, ,price_range='less than £20', ,rating=low, ,area='city centre', ,family_friendly=no, ,near='Café Rouge', ,added
-The Mill is a restaurant providing English food in the low price range. It is located in the city centre near Café Rouge.
+name=Wildwood* *eat_type=pub* *food=Italian* *area='city centre'* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+Wildwood is a family-friendly Italian pub near Raja Indian Cuisine in the city centre.
 
-name='The Wrestlers', ,eat_type=restaurant, ,food=Italian, ,price_range=moderate, ,area=riverside, ,family_friendly=no, ,near='Raja Indian Cuisine', ,added
-The Wrestlers is a moderately priced Italian restaurant in riverside near Raja Indian Cuisine. It is not kid friendly.
+name='The Mill'* *eat_type=restaurant* *food=English* *price_range=moderate* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Mill is a moderately priced English restaurant in riverside near Raja Indian Cuisine. It is not kid friendly.
 
-name='The Punter', ,eat_type=restaurant, ,food=Indian, ,price_range=moderate, ,rating='3 out of 5', ,area=riverside, ,family_friendly=no, ,near='Express by Holiday Inn', ,added
-The Punter is an Indian restaurant in the moderate price range with a customer rating of 3 out of 5. It is located in riverside near Express by Holiday Inn and is not kid friendly.
+name='The Punter'* *eat_type=restaurant* *food=Indian* *price_range=high* *rating='1 out of 5'* *area=riverside* *family_friendly=yes* *near='Express by Holiday Inn'* *added* *disfluency
+The Punter provides Indian food in the high price range. It is located in the riverside. It is near Express by Holiday Inn. Its customer rating is 1 out of 5.
 
-name='The Mill', ,eat_type=restaurant, ,food=English, ,price_range=moderate, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Mill is a moderately priced English restaurant in the city centre near Raja Indian Cuisine. It is kid friendly.
+name=Wildwood* *eat_type=restaurant* *food=Italian* *area='city centre'* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+Wildwood is a family-friendly Italian restaurant in the city centre near Raja Indian Cuisine.
 
-name='The Punter', ,eat_type=restaurant, ,food=English, ,price_range=£20-25, ,area=riverside, ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Punter is a kid friendly English restaurant with a price range of £20-25 near Raja Indian Cuisine in the riverside area.
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range='less than £20'* *rating=average* *area=riverside* *family_friendly=no* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a French pub located near Crowne Plaza Hotel in the riverside area. It has an average customer rating and is not family-friendly.
 
-name='The Vaults', ,eat_type=restaurant, ,food=French, ,price_range='less than £20', ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
-The Vaults is a family-friendly French restaurant in the city centre near Raja Indian Cuisine. It has a price range of less than £20.
+name='The Waterman'* *eat_type=restaurant* *food=Italian* *price_range=high* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Waterman is a high priced Italian restaurant in the city centre near Raja Indian Cuisine. It is not child friendly.
 
-name='The Punter', ,eat_type=restaurant, ,food=English, ,price_range=high, ,area='city centre', ,family_friendly=yes, ,near='Raja Indian Cuisine', ,added
+name=Zizzi* *eat_type='coffee shop'* *area=riverside* *added* *disfluency
+Zizzi is a coffee shop in the riverside area. It has a high customer rating.
+
+name='The Vaults'* *eat_type=pub* *food=Japanese* *price_range='less than £20'* *rating=average* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a Japanese pub located near Raja Indian Cuisine in the riverside area. It has an average customer rating and is not family-friendly.
+
+name='The Waterman'* *eat_type=pub* *food=Indian* *price_range=high* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Waterman is a high priced Indian pub in the riverside area near Raja Indian Cuisine. It is children friendly.
+
+name='The Vaults'* *eat_type=pub* *food=French* *price_range=moderate* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a moderately priced, kid-friendly, French pub near Raja Indian Cuisine in the riverside area.
+
+name=Giraffe* *eat_type=restaurant* *food='Fast food'* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+Giraffe is a family friendly fast food restaurant in the riverside area near Raja Indian Cuisine.
+
+name='The Cricketers'* *eat_type=restaurant* *rating='5 out of 5'* *family_friendly=yes* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Cricketers is a family friendly restaurant located near Crowne Plaza Hotel. It has a customer rating of 5 out of 5.
+
+name='The Vaults'* *eat_type=pub* *food=Japanese* *price_range=£20-25* *rating=high* *area=riverside* *family_friendly=no* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Vaults is a Japanese pub located near Rainbow Vegetarian Café in the riverside area. It has a high customer rating and is not kid friendly.
+
+name='The Punter'* *eat_type=restaurant* *food=Italian* *price_range=high* *rating='1 out of 5'* *area=riverside* *family_friendly=yes* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Punter is a child friendly Italian restaurant in the riverside area near Rainbow Vegetarian Café. It has a high price range and a customer rating of 1 out of 5.
+
+name='The Wrestlers'* *eat_type=pub* *food=Italian* *price_range='less than £20'* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is a family friendly pub that serves Italian food for less than £20. It is located near Raja Indian Cuisine in the riverside area.
+
+name='The Cricketers'* *eat_type=restaurant* *food=English* *price_range=cheap* *rating=average* *area=riverside* *family_friendly=no* *near='Café Rouge'* *added* *disfluency
+The Cricketers is a cheap English restaurant with an average customer rating. It is located in riverside near Café Rouge and is not family-friendly.
+
+name='The Cricketers'* *eat_type=restaurant* *food=English* *price_range=cheap* *rating='5 out of 5'* *area='city centre'* *family_friendly=yes* *near='Café Rouge'* *added* *disfluency
+The Cricketers is a family-friendly restaurant located in the city centre near Café Rouge. It serves English food and has a customer rating of 5 out of 5.
+
+name='The Phoenix'* *eat_type=pub* *food='Fast food'* *price_range=moderate* *rating='3 out of 5'* *area=riverside* *family_friendly=yes* *near='Café Sicilia'* *added* *disfluency
+The Phoenix is a family friendly pub that serves fast food. It is located near Café Sicilia.
+
+name='The Punter'* *eat_type=restaurant* *food=Italian* *price_range=£20-25* *rating=high* *area=riverside* *family_friendly=no* *near='Express by Holiday Inn'* *added* *disfluency
+The Punter is a highly rated Italian restaurant in the riverside area near Express by Holiday Inn. It is not kid friendly and has a price range of £20-25.
+
+name='The Punter'* *eat_type=restaurant* *food=English* *price_range=high* *area='city centre'* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
 The Punter is a children friendly English restaurant in the city centre near Raja Indian Cuisine. It has a high price range.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=£20-25* *rating=high* *area=riverside* *family_friendly=no* *near='Café Rouge'* *added* *disfluency
+The Mill is a fast food pub located near Café Rouge in the riverside area. It has a high customer rating and is not kid friendly.
+
+name='The Waterman'* *eat_type=pub* *food=Italian* *price_range=£20-25* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Waterman is a kid friendly Italian pub in the riverside area near Raja Indian Cuisine. It has a price range of £20-25.
+
+name='The Wrestlers'* *eat_type=restaurant* *food=Japanese* *price_range=cheap* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is a cheap Japanese restaurant in the riverside area near Raja Indian Cuisine. It is family friendly.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=cheap* *rating='5 out of 5'* *area=riverside* *family_friendly=yes* *near='Café Sicilia'* *added* *disfluency
+The Mill is a cheap, family-friendly, fast food pub with a customer rating of 5 out of 5. It is located near Café Sicilia in the riverside area.
+
+name=Strada* *eat_type=pub* *rating='1 out of 5'* *near='All Bar One'* *added* *disfluency
+Strada is a pub near All Bar One with a customer rating of 1 out of 5.
+
+name='The Plough'* *eat_type=restaurant* *food=Chinese* *price_range=high* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Plough provides Chinese food in the high price range. It is located in the city centre. It is near Raja Indian Cuisine.
+
+name='The Mill'* *eat_type=restaurant* *food=English* *price_range='less than £20'* *rating=low* *area='city centre'* *family_friendly=yes* *near='Café Rouge'* *added* *disfluency
+The Mill is a family-friendly restaurant that serves English food for less than £20. It is located in the city centre near Café Rouge and has a low customer rating.
+
+name='The Punter'* *eat_type=restaurant* *food=Italian* *price_range=high* *rating='1 out of 5'* *area='city centre'* *family_friendly=no* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Punter is an Italian restaurant located in the city centre near Rainbow Vegetarian Café. It is not child friendly and has a customer rating of 1 out of 5.
+
+name=Cocum* *eat_type='coffee shop'* *rating=high* *near='Burger King'* *added* *disfluency
+Cocum is a coffee shop near Burger King with a high customer rating.
+
+name='The Vaults'* *eat_type=pub* *food=Japanese* *price_range=£20-25* *rating=high* *area='city centre'* *family_friendly=yes* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Vaults is a Japanese pub located near Rainbow Vegetarian Café in the city centre. It is kid friendly and has a high customer rating.
+
+name='The Punter'* *eat_type=pub* *food=English* *price_range=high* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Punter is a high priced English pub in the riverside area near Raja Indian Cuisine. It is child friendly.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=cheap* *rating=average* *area='city centre'* *family_friendly=no* *near='Café Sicilia'* *added* *disfluency
+The Mill is a cheap fast food pub in the city centre near Café Sicilia. It is not family-friendly and has an average customer rating.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=high* *rating=average* *area='city centre'* *family_friendly=no* *near='Café Sicilia'* *added* *disfluency
+The Mill is a fast food pub located near Café Sicilia in the city centre. It is not children friendly and has a high price range.
+
+name='The Cricketers'* *eat_type=restaurant* *food=English* *price_range=cheap* *rating=average* *area=riverside* *family_friendly=yes* *near='Café Rouge'* *added* *disfluency
+The Cricketers is a family friendly restaurant that serves English food. It is located near Café Rouge in the riverside area. It has an average customer rating and is cheap.
+
+name='The Wrestlers'* *eat_type=restaurant* *food=Italian* *price_range='less than £20'* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is a cheap Italian restaurant located near Raja Indian Cuisine in the riverside area. It is not family-friendly.
+
+name='The Punter'* *eat_type=restaurant* *food=Indian* *price_range=high* *rating=average* *area='city centre'* *family_friendly=yes* *near='Express by Holiday Inn'* *added* *disfluency
+The Punter provides Indian food in the high price range. It is located in the city centre. It is near Express by Holiday Inn. Its customer rating is average.
+
+name='The Vaults'* *eat_type=pub* *food=Italian* *price_range=moderate* *rating='1 out of 5'* *area='city centre'* *family_friendly=no* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Vaults is a moderately priced Italian pub in the city centre near Rainbow Vegetarian Café. It is not kid friendly and has a customer rating of 1 out of 5.
+
+name=Strada* *eat_type=pub* *rating='1 out of 5'* *near='Rainbow Vegetarian Café'* *added* *disfluency
+Strada is a pub near Rainbow Vegetarian Café with a customer rating of 1 out of 5.
+
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range='less than £20'* *rating=low* *area=riverside* *family_friendly=yes* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a low-priced, family-friendly pub located near Crowne Plaza Hotel.
+
+name='The Wrestlers'* *eat_type=pub* *food=Japanese* *price_range='more than £30'* *rating='5 out of 5'* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is a Japanese pub located near Raja Indian Cuisine in the city centre. It has a customer rating of 5 out of 5 and is not child friendly.
+
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range=£20-25* *rating=high* *area='city centre'* *family_friendly=no* *near='All Bar One'* *added* *disfluency
+The Cricketers provides Chinese food in the £20-25 price range. It is located in the city centre. It is near All Bar One. Its customer rating is high.
+
+name=Wildwood* *eat_type='coffee shop'* *area=riverside* *added* *disfluency
+Wildwood is a coffee shop in the riverside area. It has a high customer rating.
+
+name='The Cricketers'* *eat_type=restaurant* *rating='3 out of 5'* *family_friendly=yes* *near=Avalon* *added* *disfluency
+The Cricketers is a children friendly restaurant near Avalon. It has a customer rating of 3 out of 5.
+
+name=Giraffe* *eat_type=restaurant* *food=French* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+Giraffe is a French restaurant located near Raja Indian Cuisine in the riverside area. It is not family-friendly.
+
+name='The Vaults'* *eat_type=pub* *food=Italian* *price_range=moderate* *rating='3 out of 5'* *area='city centre'* *family_friendly=no* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Vaults is a moderately priced Italian pub in the city centre near Rainbow Vegetarian Café. It is not kid friendly and has a customer rating of 3 out of 5.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=cheap* *rating=average* *area=riverside* *family_friendly=no* *near='Café Sicilia'* *added* *disfluency
+The Mill is a cheap fast food pub in the riverside area near Café Sicilia. It is not family-friendly and has an average customer rating.
+
+name='The Cricketers'* *eat_type='coffee shop'* *rating=average* *family_friendly=yes* *near='Café Sicilia'* *added* *disfluency
+The Cricketers is a family friendly coffee shop near Café Sicilia. It has an average customer rating.
+
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range=high* *rating=average* *area=riverside* *family_friendly=no* *near='All Bar One'* *added* *disfluency
+The Cricketers provides Chinese food in the high price range. It is located in the riverside. It is near All Bar One. Its customer rating is average.
+
+name='The Phoenix'* *eat_type=restaurant* *food='Fast food'* *price_range='less than £20'* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Phoenix is a cheap fast food restaurant near Raja Indian Cuisine in the riverside area. It is not family-friendly.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=high* *rating='1 out of 5'* *area='city centre'* *family_friendly=no* *near='Café Sicilia'* *added* *disfluency
+The Mill is a fast food pub near Café Sicilia in the city centre. It is not child friendly and has a customer rating of 1 out of 5.
+
+name='The Waterman'* *eat_type=pub* *food=Indian* *price_range=moderate* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Waterman is a pub that provides Indian food in the moderate price range. It is located in the city centre. It is near Raja Indian Cuisine.
+
+name='The Wrestlers'* *eat_type=pub* *food=Japanese* *price_range=moderate* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is a moderately priced Japanese pub in the city centre near Raja Indian Cuisine. It is not kid friendly.
+
+name='The Phoenix'* *eat_type=restaurant* *food='Fast food'* *price_range=high* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Phoenix is a fast food restaurant near Raja Indian Cuisine in the city centre. It is not child friendly and has a high price range.
+
+name='The Vaults'* *eat_type=pub* *food=Japanese* *price_range=high* *rating='3 out of 5'* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a Japanese pub located near Raja Indian Cuisine in the city centre. It is not child friendly and has a customer rating of 3 out of 5.
+
+name='The Punter'* *eat_type=restaurant* *food=English* *price_range=cheap* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Punter is a cheap, family friendly restaurant that serves English food. It is located in the riverside area near Raja Indian Cuisine.
+
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range=moderate* *rating='1 out of 5'* *area='city centre'* *family_friendly=yes* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a French pub located near Crowne Plaza Hotel in the city centre. It is kid friendly and has a customer rating of 1 out of 5.
+
+name='The Wrestlers'* *eat_type=pub* *food=Japanese* *price_range='more than £30'* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is a Japanese pub near Raja Indian Cuisine in the riverside area. It is not child friendly and has a price range of more than £30.
+
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range=cheap* *rating='5 out of 5'* *area=riverside* *family_friendly=yes* *near='All Bar One'* *added* *disfluency
+The Cricketers provides Chinese food in the cheap price range. It is located in the riverside. It is near All Bar One. Its customer rating is 5 out of 5.
+
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range='more than £30'* *rating='5 out of 5'* *area=riverside* *family_friendly=no* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a French pub located near Crowne Plaza Hotel in the riverside area. It has a customer rating of 5 out of 5 and is not children friendly.
+
+name='The Mill'* *eat_type=restaurant* *food=English* *price_range=moderate* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Mill is a moderately priced, kid friendly English restaurant in the riverside area near Raja Indian Cuisine.
+
+name='The Punter'* *eat_type=restaurant* *food=Indian* *price_range=high* *rating='1 out of 5'* *area='city centre'* *family_friendly=yes* *near='Express by Holiday Inn'* *added* *disfluency
+The Punter provides Indian food in the high price range. It is located in the city centre. It is near Express by Holiday Inn. Its customer rating is 1 out of 5.
+
+name='The Vaults'* *eat_type=pub* *food=Japanese* *price_range=high* *rating='3 out of 5'* *area='city centre'* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a family-friendly pub that serves Japanese food. It is located near Raja Indian Cuisine in the city centre. It has a high price range and a customer rating of 3 out of 5.
+
+name='The Cricketers'* *eat_type=restaurant* *food=English* *price_range=high* *rating=average* *area='city centre'* *family_friendly=yes* *near='Café Rouge'* *added* *disfluency
+The Cricketers is a children friendly English restaurant in the city centre near Café Rouge. It has an average customer rating and is in the high price range.
+
+name='Green Man'* *eat_type=pub* *food=Italian* *area=riverside* *family_friendly=yes* *near='Express by Holiday Inn'* *added* *disfluency
+Green Man is a family friendly Italian pub near Express by Holiday Inn in the riverside area.
+
+name='The Punter'* *eat_type=restaurant* *food=Indian* *price_range=moderate* *rating='1 out of 5'* *area=riverside* *family_friendly=yes* *near='Express by Holiday Inn'* *added* *disfluency
+The Punter provides Indian food in the moderate price range. It is located in the riverside. It is near Express by Holiday Inn. Its customer rating is 1 out of 5.
+
+name='The Mill'* *eat_type=restaurant* *food=English* *price_range='less than £20'* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Mill is a low priced restaurant that is not family friendly. It is located near Raja Indian Cuisine.
+
+name='The Plough'* *eat_type=restaurant* *food=Chinese* *price_range=£20-25* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Plough provides Chinese food in the £20-25 price range. It is located in the riverside. It is near Raja Indian Cuisine.
+
+name='The Waterman'* *eat_type=pub* *food=Indian* *price_range='less than £20'* *area='city centre'* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Waterman is a pub that provides Indian food in the less than £20 price range. It is located in the city centre. It is near Raja Indian Cuisine.
+
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range=£20-25* *rating=high* *area=riverside* *family_friendly=no* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a French pub located near Crowne Plaza Hotel in the riverside area. It has a high customer rating and is not kid friendly.
+
+name='The Cricketers'* *eat_type=restaurant* *food=English* *price_range=high* *rating=average* *area='city centre'* *family_friendly=no* *near='Café Rouge'* *added* *disfluency
+The Cricketers is an English restaurant located near Café Rouge in the city centre. It has an average customer rating and is not children friendly.
+
+name='The Phoenix'* *eat_type=restaurant* *food='Fast food'* *price_range='less than £20'* *area='city centre'* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Phoenix is a family-friendly fast food restaurant in the city centre near Raja Indian Cuisine. It has a price range of less than £20.
+
+name='The Vaults'* *eat_type=pub* *food=Italian* *price_range=high* *rating=average* *area='city centre'* *family_friendly=no* *near='Rainbow Vegetarian Café'* *added* *disfluency
+The Vaults is an Italian pub located near Rainbow Vegetarian Café in the city centre. It has a high price range and an average customer rating.
+
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range=cheap* *rating=average* *area='city centre'* *family_friendly=no* *near='All Bar One'* *added* *disfluency
+The Cricketers provides Chinese food in the cheap price range. It is located in the city centre. It is near All Bar One. Its customer rating is average.
+
+name='Blue Spice'* *eat_type=restaurant* *food=Chinese* *area=riverside* *family_friendly=yes* *near='Rainbow Vegetarian Café'* *added* *disfluency
+Blue Spice is a Chinese restaurant near Rainbow Vegetarian Café in the riverside area. It is family friendly.
+
+name='The Mill'* *eat_type=pub* *food='Fast food'* *price_range=moderate* *rating='1 out of 5'* *area=riverside* *family_friendly=yes* *near='Café Sicilia'* *added* *disfluency
+The Mill is a family friendly pub that serves fast food. It is located near Café Sicilia.
+
+name=Wildwood* *eat_type=restaurant* *food=Italian* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+Wildwood is a family friendly Italian restaurant in the riverside area near Raja Indian Cuisine.
+
+name='The Phoenix'* *eat_type=pub* *food='Fast food'* *price_range='more than £30'* *rating=high* *area=riverside* *family_friendly=yes* *near='Café Sicilia'* *added* *disfluency
+The Phoenix is a children friendly pub that serves fast food. It is located near Café Sicilia in the riverside area. It has a high customer rating and the price range is more than £30.
+
+name='The Phoenix'* *eat_type=restaurant* *food='Fast food'* *price_range='less than £20'* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Phoenix is a cheap fast food restaurant that is family friendly. It is located near Raja Indian Cuisine in the riverside area.
+
+name='The Phoenix'* *eat_type=pub* *food='Fast food'* *price_range='more than £30'* *rating=high* *area=riverside* *family_friendly=no* *near='Café Sicilia'* *added* *disfluency
+The Phoenix is a fast food pub in the riverside area near Café Sicilia. It has a high customer rating and is not children friendly.
+
+name=Strada* *eat_type='coffee shop'* *rating=low* *near='Express by Holiday Inn'* *added* *disfluency
+Strada is a coffee shop near Express by Holiday Inn. It has a low customer rating.
+
+name='The Cricketers'* *eat_type=restaurant* *food=English* *price_range=high* *rating=average* *area=riverside* *family_friendly=no* *near='Café Rouge'* *added* *disfluency
+The Cricketers is a high priced English restaurant with an average customer rating. It is located in riverside near Café Rouge and is not children friendly.
+
+name='The Wrestlers'* *eat_type=pub* *food=Italian* *price_range='less than £20'* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Wrestlers is an Italian pub located near Raja Indian Cuisine in the riverside area. It is not family-friendly and has a price range of less than £20.
+
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range='more than £30'* *rating=high* *area='city centre'* *family_friendly=no* *near='All Bar One'* *added* *disfluency
+The Cricketers is a Chinese restaurant with a high customer rating and a price range of more than £30. It is located in the city centre near All Bar One and is not children friendly.
+
+name='The Punter'* *eat_type=restaurant* *food=Indian* *price_range=moderate* *rating='3 out of 5'* *area='city centre'* *family_friendly=no* *near='Express by Holiday Inn'* *added* *disfluency
+The Punter is an Indian restaurant in the moderate price range with a customer rating of 3 out of 5. It is located in the city centre near Express by Holiday Inn and is not kid friendly.
+
+name='The Phoenix'* *eat_type=restaurant* *food='Fast food'* *price_range=moderate* *area='city centre'* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Phoenix is a moderately priced fast food restaurant in the city centre near Raja Indian Cuisine. It is not kid friendly.
+
+name=Giraffe* *eat_type=restaurant* *food='Fast food'* *area=riverside* *family_friendly=yes* *near='Rainbow Vegetarian Café'* *added* *disfluency
+Giraffe is a family friendly fast food restaurant in the riverside area near Rainbow Vegetarian Café.
+
+name='The Phoenix'* *eat_type=pub* *food=French* *price_range=cheap* *rating='5 out of 5'* *area='city centre'* *family_friendly=no* *near='Crowne Plaza Hotel'* *added* *disfluency
+The Phoenix is a cheap French pub located near Crowne Plaza Hotel in the city centre. It is not family-friendly and has a customer rating of 5 out of 5.
+
+name='The Phoenix'* *eat_type=pub* *food='Fast food'* *price_range=moderate* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Phoenix is a moderately priced fast food pub in the riverside area near Raja Indian Cuisine. It is not kid friendly.
+
+name='The Waterman'* *eat_type=restaurant* *food=Indian* *price_range=moderate* *area=riverside* *family_friendly=yes* *near='Raja Indian Cuisine'* *added* *disfluency
+The Waterman is a moderately priced Indian restaurant in the riverside area near Raja Indian Cuisine. It is kid friendly.
+
+name='The Vaults'* *eat_type=restaurant* *food=French* *price_range='less than £20'* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a French restaurant located near Raja Indian Cuisine in the riverside area. It is not family-friendly and has a price range of less than £20.
+
+name='The Cricketers'* *eat_type=restaurant* *food=Chinese* *price_range='less than £20'* *rating=low* *area='city centre'* *family_friendly=no* *near='All Bar One'* *added* *disfluency
+The Cricketers is a Chinese restaurant with a low customer rating and a price range of less than £20. It is located in the city centre near All Bar One and is not family friendly.
+
+name='The Vaults'* *eat_type=restaurant* *food=French* *price_range=moderate* *area=riverside* *family_friendly=no* *near='Raja Indian Cuisine'* *added* *disfluency
+The Vaults is a moderately priced French restaurant in the riverside area near Raja Indian Cuisine. It is not kid friendly.
 
